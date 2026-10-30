@@ -65,9 +65,11 @@
     author      = {E. Pendleton and D. Bessette and P. Field and G. Miller and K. Griffin},
     title       = {Active Aeroelastic Wing Flight Research Program: Technical Program and Model Analytical Development},
     journal     = {Journal of Aircraft},
+    number      = {4},
     pages       = {554 - 561},
     volume      = {37},
-    year        = {2000}
+    year        = {2000},
+    keywords    = {morphing}
 }
 
 @InProceedings{Abadi2016,
@@ -144,9 +146,12 @@
     title       = {Coupled Aeropropulsive Design Optimization of a Podded Electric Propulsor},
     doi         = {10.1007/s00158-024-03904-w},
     journal     = {Structural and Multidisciplinary Optimization},
+    note        = {(In press)},
     number      = {13},
     volume      = {68},
-    year        = {2025}
+    year        = {2025},
+    abstract    = {Some novel aircraft concepts use unconventional propulsion technologies to reduce energy usage. Innovative technologies like distributed electric propulsion and boundary layer ingestion introduce new design challenges with airframe-propulsion integration. When designed in isolation, neither the airframe nor the propulsion system achieves maximum efficiency. Thus, a coupled aeropropulsive design optimization strategy is required. The advent of aeropropulsive design optimization solves this problem by simultaneously optimizing the airframe and propulsion system with coupled physics-based models. Despite its advantages, aeropropulsive design optimization has been limited by poor robustness in optimization convergence and a lack of fully coupled models suitable for gradient-based optimization. In this work, we demonstrate two aeropropulsive coupling methods in computational fluid dynamics based models that simulate the coupled effects of the propulsion system and the
+                  airframe. The first method uses momentum and energy source terms, the actuator zone model, to model the effect of the propulsion system, while the second uses powered boundary conditions, the boundary condition model. To showcase the effectiveness, we apply each coupled approach to a podded electric fan model based on NASA's STARC-ABL concept. We demonstrate the robustness and efficiency of the approach by performing a design parameter study with 50 aeropropulsive design optimizations. We also perform a multipoint design optimization problem. The optimization maximizes cruise performance subject to a fan-face distortion constraint at rolling take-off conditions. The aeropropulsive coupling strategies we present in this work are crucial for future aeropropulsive design optimizations considering complex propulsion systems and airframe-propulsion integration.}
 }
 
 @Article{Abdul-Kaiyoom2025a,
@@ -193,17 +198,6 @@
     abstract    = {Over-wing nacelle (OWN) configurations have two advantages over the traditional under-wing nacelle (UWN) configurations: 1. they make it easier to integrate high bypass ratio (BPR) and ultra-high BPR engines by removing ground clearance concerns, and 2. they significantly reduce noise because the wing blocks the noise of the fan and the jet. Despite their benefits, OWN technology is not widely used in real aircraft designs because of the challenges and lack of research in aeropropulsive integration of the propulsion system. In this work, we present multipoint aeropropulsive design optimizations of an OWN configuration to address several scenarios. To effectively design the propulsor in OWN, we consider on-design and off-design formulations of engine design concepts. In this work, we present one single-point optimization and three multipoint optimizations. In the multipoint optimizations, the objective is to minimize the shaft power at cruise conditions subject to
                   constraints. To compare the performance degradation of single-point optimization, we performed several sub-optimizations to reflect the multipoint cases. The single-point optimal design required additional 0.4\% shaft power across the cruise conditions when compared to the multipoint optimization with 3 cruise points. In addition, distortion-constrained and distortion-unconstrained optimizations were performed at the take-off scenario. By modifying the inlet shape of the nacelle, the distortion-constrained optimization effectively reduces the distortion in the take-off scenario at the outermost radial ring over the fan by penalizing the cruise performance. The multipoint optimizations in this work highlight a number of significant design effects. An effective design is produced by including the required flight conditions and specifying the proper objective and constraints in the OWN multipoint problem. These design optimization capabilities will be crucial in
                   determining the viability of novel propulsion concepts for next-generation OWN aircraft.}
-}
-
-@Article{AbdulKaiyoom2024a,
-    author      = {M. A. Saja {Abdul-Kaiyoom} and Andrew Lamkin and Anil Yildirim and Justin S. Gray and Charles A. Mader and Joaquim R. R. A. Martins},
-    title       = {Coupled aeropropulsive design optimization of a podded electric propulsor},
-    doi         = {10.1007/s00158-024-03904-w},
-    journal     = {Structural and Multidisciplinary Optimization},
-    note        = {(In press)},
-    year        = {2024},
-    abstract    = {Some novel aircraft concepts use unconventional propulsion technologies to reduce energy usage. Innovative technologies like distributed electric propulsion and boundary layer ingestion introduce new design challenges with airframe-propulsion integration. When designed in isolation, neither the airframe nor the propulsion system achieves maximum efficiency. Thus, a coupled aeropropulsive design optimization strategy is required. The advent of aeropropulsive design optimization solves this problem by simultaneously optimizing the airframe and propulsion system with coupled physics-based models. Despite its advantages, aeropropulsive design optimization has been limited by poor robustness in optimization convergence and a lack of fully coupled models suitable for gradient-based optimization. In this work, we demonstrate two aeropropulsive coupling methods in computational fluid dynamics based models that simulate the coupled effects of the propulsion system and the
-                  airframe. The first method uses momentum and energy source terms, the actuator zone model, to model the effect of the propulsion system, while the second uses powered boundary conditions, the boundary condition model. To showcase the effectiveness, we apply each coupled approach to a podded electric fan model based on NASA's STARC-ABL concept. We demonstrate the robustness and efficiency of the approach by performing a design parameter study with 50 aeropropulsive design optimizations. We also perform a multipoint design optimization problem. The optimization maximizes cruise performance subject to a fan-face distortion constraint at rolling take-off conditions. The aeropropulsive coupling strategies we present in this work are crucial for future aeropropulsive design optimizations considering complex propulsion systems and airframe-propulsion integration.}
 }
 
 @Article{abel,
@@ -850,20 +844,6 @@
     year        = {1998}
 }
 
-@Article{airfoilmode3,
-    author      = {Daniel J. Poole and Christian B. Allen and Thomas C. S. Rendall},
-    title       = {Metric-Based Mathematical Derivation of Efficient Airfoil Design Variables},
-    doi         = {10.2514/1.j053427},
-    journal     = {{AIAA} Journal},
-    month       = {May},
-    number      = {5},
-    pages       = {1349--1361},
-    publisher   = {American Institute of Aeronautics and Astronautics ({AIAA})},
-    url         = {https://doi.org/10.2514/1.j053427},
-    volume      = {53},
-    year        = {2015}
-}
-
 @InProceedings{airfoilmode4,
     author      = {Daniel J. Poole and Christian B. Allen and T. Rendall},
     title       = {Aerofoil Design Variable Extraction for Aerodynamic Optimization},
@@ -1101,16 +1081,6 @@
     year        = {2010}
 }
 
-@InProceedings{Albert2013,
-    author      = {Albert, Moritz and Bestle, Dieter},
-    title       = {Aerodynamic Design Optimization of Nacelle and Intake},
-    doi         = {10.1115/GT2013-94857},
-    month       = {06},
-    series      = {Turbo Expo: Power for Land, Sea, and Air},
-    volume      = {Volume 2: Aircraft Engine; Coal, Biomass and Alternative Fuels; Cycle Innovations},
-    year        = {2013}
-}
-
 @InProceedings{Albert2013a,
     author      = {Albert, Moritz and Bestle, Dieter},
     title       = {Aerodynamic Design Optimization of Nacelle and Intake},
@@ -1118,6 +1088,8 @@
     doi         = {10.1115/GT2013-94857},
     month       = {November},
     publisher   = {American Society of Mechanical Engineers Digital Collection},
+    series      = {Turbo Expo: Power for Land, Sea, and Air},
+    volume      = {Volume 2: Aircraft Engine; Coal, Biomass and Alternative Fuels; Cycle Innovations},
     year        = {2013}
 }
 
@@ -1156,31 +1128,12 @@
                   indicator-based techniques, albeit at the cost of a greater space complexity when compared to the evolutionary counterpart.}
 }
 
-@TechReport{Alexandrov1994,
-    author      = {Alexandrov, Natalia and {Dennis Jr.}, J E},
-    title       = {Multilevel Algorithms for Nonlinear Optimization},
-    address     = {Hampton, VA},
-    booktitle   = {Contractor},
-    institution = {NASA Langley Research Center},
-    year        = {1994},
-    abstract    = {Multidisciplinary design optimization (MDO) gives rise to nonlinear optimization problems characterized by a large number of constraints that naturally occur in blocks. We propose a class of multilevel optimization methods motivated by the structure and number of constraints and by the expense of the derivative computations for MDO. The algorithms are an extension ot the nonlinear programming problem of the successful class of local Brown-Brent algorithms for nonlinear equations. Our extensions allow the user to partition constraints into arbitrary blocks to fit the application, and they separately process each block and the objective function, restricted to certain subspaces. The methods use trust regions as a globalization strategy, and they have been shown to be globally convergent under reasonable assumptions. The multilevel algorithms can be applied to all classes of MDO formulations. Multilevel algorithms for solving nonlinear systems of equations are a special
-                  case of the multilevel optimization methods. In this case, they can be viewed as a trust-region globalization of the Brown-Brent class.}
-}
-
 @Book{Alexandrov1997a,
     title       = {Multidisciplinary Design Optimization: State-of-the-Art},
     editor      = {Natalia Alexandrov and M. Y. Hussaini},
     keywords    = {MDO},
     publisher   = {SIAM},
     year        = {1997}
-}
-
-@InProceedings{Alexandrov1999,
-    author      = {Natalia M. Alexandrov and Robert Michael Lewis},
-    title       = {Comparative Properties of Collaborative Optimization and Other Approaches to {MDO}},
-    booktitle   = {Proceedings of the First ASMO UK / ISSMO Conference on Engineering Design Optimization},
-    keywords    = {MDO},
-    year        = {1999}
 }
 
 @InProceedings{Alexandrov2000b,
@@ -1218,10 +1171,15 @@
 @TechReport{Alexandrov:1994:MAN,
     author      = {Natalia Alexandrov and J. E. {Dennis~Jr.}},
     title       = {Multilevel Algorithms for Nonlinear Optimization},
-    keywords    = {MDO},
+    address     = {Hampton, VA},
+    booktitle   = {Contractor},
+    institution = {NASA Langley Research Center},
     number      = {NASA TR-94-53},
     url         = {citeseer.nj.nec.com/alexandrov94multilevel.html},
-    year        = {1994}
+    year        = {1994},
+    keywords    = {MDO},
+    abstract    = {Multidisciplinary design optimization (MDO) gives rise to nonlinear optimization problems characterized by a large number of constraints that naturally occur in blocks. We propose a class of multilevel optimization methods motivated by the structure and number of constraints and by the expense of the derivative computations for MDO. The algorithms are an extension ot the nonlinear programming problem of the successful class of local Brown-Brent algorithms for nonlinear equations. Our extensions allow the user to partition constraints into arbitrary blocks to fit the application, and they separately process each block and the objective function, restricted to certain subspaces. The methods use trust regions as a globalization strategy, and they have been shown to be globally convergent under reasonable assumptions. The multilevel algorithms can be applied to all classes of MDO formulations. Multilevel algorithms for solving nonlinear systems of equations are a special
+                  case of the multilevel optimization methods. In this case, they can be viewed as a trust-region globalization of the Brown-Brent class.}
 }
 
 @InCollection{Alexandrov:1997:MMM,
@@ -1244,16 +1202,16 @@
     year        = 1998
 }
 
-@TechReport{Alexandrov:1999:CPC,
+@InProceedings{Alexandrov:1999:CPC,
     author      = {Natalia M. Alexandrov and Robert Michael Lewis},
     title       = {Comparative Properties of Collaborative Optimization and Other Approaches to {MDO}},
     address     = {Hampton, VA},
     booktitle   = {Proceedings of the First ASMO UK / ISSMO Conference on Engineering Design Optimization},
     institution = {{NASA}},
-    keywords    = {MDO, CO},
     month       = {July},
     number      = {CR-1999-209354},
-    year        = {1999}
+    year        = {1999},
+    keywords    = {MDO, CO, MDO}
 }
 
 @TechReport{Alexandrov:2000:ACP,
@@ -2253,7 +2211,7 @@
     author      = {Arnal, Daniel},
     title       = {Transition Prediction In Transonic Flow},
     booktitle   = {IUTAM Symposium Transsonicum III DFVLR-AVA},
-    doi         = {10.2514/6.1998-2824},
+    doi         = {10.1007/978-3-642-83584-1_21},
     pages       = {253--262},
     year        = {1988}
 }
@@ -2423,14 +2381,6 @@
     publisher   = {Cambridge University Press ({CUP})},
     volume      = {28},
     year        = {2019}
-}
-
-@InProceedings{Arroyo2005,
-    author      = {Sharon F. Arroyo and J. E. Dennis Jr. and Evin J. Cramer and Paul D. Frank},
-    title       = {Problem Formulations for Systems of Systems},
-    booktitle   = {Proceedings of the 2005 IEEE International Conference on Systems, Man and Cybernetics},
-    pages       = {64--71},
-    year        = {2005}
 }
 
 @Article{Arroyo2009,
@@ -2680,18 +2630,6 @@
     year        = {2015}
 }
 
-@Article{Audet2006,
-    author      = {Audet, Charles and Cust{\'{o}}dio, A. L. and Dennis, J. E.},
-    title       = {Mesh adaptive direct search algorithms for constrained optimization},
-    doi         = {10.1137/040603371},
-    journal     = {SIAM Journal on Optimization},
-    number      = {1},
-    pages       = {188--217},
-    volume      = {17},
-    year        = {2006},
-    abstract    = {In SIAM J. Optim., 17 (2006), pp. 188-217 Audet and Dennis proposed the class of mesh adaptive direct search (MADS) algorithms for minimization of a nonsmooth function under general nonsmooth constraints. The notation used in the paper evolved since the preliminary versions, and, unfortunately, even though the statement of Proposition 4.2 is correct, it is not compatible with the final notation. The purpose of this note is to show that the proposition is valid.}
-}
-
 @Article{Audet2006a,
     author      = {Charles Audet and J. E. Dennis, Jr},
     title       = {Mesh adaptive direct search algorithms for constrained optimization},
@@ -2701,7 +2639,8 @@
     number      = {1},
     pages       = {188--217},
     volume      = {17},
-    year        = {2006}
+    year        = {2006},
+    abstract    = {In SIAM J. Optim., 17 (2006), pp. 188-217 Audet and Dennis proposed the class of mesh adaptive direct search (MADS) algorithms for minimization of a nonsmooth function under general nonsmooth constraints. The notation used in the paper evolved since the preliminary versions, and, unfortunately, even though the statement of Proposition 4.2 is correct, it is not compatible with the final notation. The purpose of this note is to show that the proposition is valid.}
 }
 
 @Book{Audet2017a,
@@ -2761,24 +2700,15 @@
     year        = {2019}
 }
 
-@Article{Azabi2019,
-    author      = {Yousef Azabi and Al Savvaris and Timoleon Kipouros},
-    title       = {Artificial Intelligence to Enhance Aerodynamic Shape Optimisation of the Aegis {UAV}},
-    doi         = {10.3390/make1020033},
-    journal     = {Machine Learning and Knowledge Extraction},
-    month       = {April},
-    number      = {2},
-    pages       = {552--574},
-    publisher   = {{MDPI} {AG}},
-    volume      = {1},
-    year        = {2019}
-}
-
 @Article{Azabi2019ArtificialIT,
     author      = {Yousef Azabi and A. Savvaris and T. Kipouros},
     title       = {Artificial Intelligence to Enhance Aerodynamic Shape Optimisation of the Aegis {UAV}},
+    doi         = {10.3390/make1020033},
     journal     = {Machine Learning \& Knowledge Extraction},
+    month       = {April},
+    number      = {2},
     pages       = {552-574},
+    publisher   = {{MDPI} {AG}},
     volume      = {1},
     year        = {2019}
 }
@@ -3098,14 +3028,6 @@
     year        = {2013}
 }
 
-@TechReport{Balay2018a,
-    author      = {S. Balayf and S. Abhyankar and M. Adams and J. Brown and K. Buschelman and L. Dalcin and A. Dener and V. Eijkhout and W. Gropp and D. Karpeyev and D. Kaushik and M. Knepley and D. May and L. Curfman McInnes and R. Mills and T. Munson and K/ Rupp and P Sanan and B. Smith and S. Zampini and H. Zhang},
-    title       = {{PETS}c Users Manual},
-    institution = {Argonne National Laboratory},
-    number      = {ANL-95/11 - Revision 3.10},
-    year        = {2018}
-}
-
 @webpage{Balay:2001:PET,
     author      = {Satish Balay and Kris Buschelman and William D. Gropp and Dinesh Kaushik and Matthew G. Knepley and Lois Curfman McInnes and Barry F. Smith and Hong Zhang},
     title       = {{PETSc} {W}eb page},
@@ -3147,18 +3069,6 @@
     year        = {2023}
 }
 
-@Article{Balling1996,
-    author      = {Richard J. Balling and Jaroslaw Sobieszczanski-Sobieski},
-    title       = {Optimization of Coupled Systems: A Critical Overview of Approaches},
-    doi         = {10.2514/3.13015},
-    journal     = {{AIAA} Journal},
-    keywords    = {MDO},
-    number      = {1},
-    pages       = {6--17},
-    volume      = {34},
-    year        = {1996}
-}
-
 @Article{Balling1997,
     author      = {Balling, R. and Wilkinson, C.},
     title       = {Execution of Multidisciplinary Design Optimization Approaches on Common Test Problems},
@@ -3187,12 +3097,13 @@
 @Article{Balling:1996:AAA,
     author      = {R.J. Balling and J. Sobieszczanski-Sobieski},
     title       = {Optimization of Coupled Systems: A Critical Overview of Approaches},
+    doi         = {10.2514/3.13015},
     journal     = {{AIAA} Journal},
-    keywords    = {MDO},
     number      = {1},
     pages       = {6--17},
     volume      = {34},
-    year        = {1996}
+    year        = {1996},
+    keywords    = {MDO}
 }
 
 @InCollection{Balling:1997:A,
@@ -4271,7 +4182,6 @@
     title       = {Fast Prediction of Flutter and Flutter Sensitivities},
     address     = {Como, Italy},
     booktitle   = {17th International Forum on Aeroelasticity and Structural Dynamics (IFASD)},
-    doi         = {10.2514/6.2017-1350},
     month       = {June 25--28},
     year        = {2017}
 }
@@ -4617,16 +4527,6 @@
 @Article{bhatnagar2019,
     author      = {S. Bhatnagar and Y. Afshar and S. Pan and K. Duraisamy and S. Kaushik},
     title       = {Prediction of Aerodynamic Flow Fields using Convolutional Neural Networks},
-    journal     = {Computational Mechanics},
-    number      = {2},
-    pages       = {525--545},
-    volume      = {64},
-    year        = {2019}
-}
-
-@Article{Bhatnagar2019a,
-    author      = {Saakaar Bhatnagar and Yaser Afshar and Shaowu Pan and Karthik Duraisamy and Shailendra Kaushik},
-    title       = {Prediction of aerodynamic flow fields using convolutional neural networks},
     doi         = {10.1007/s00466-019-01740-0},
     journal     = {Computational Mechanics},
     month       = {June},
@@ -5103,18 +5003,8 @@
     number      = {3},
     pages       = {171--186},
     volume      = {19},
-    year        = {1992}
-}
-
-@Article{Bloebaum1995,
-    author      = {Bloebaum, C. L.},
-    title       = {Coupling strength-based system reduction for complex engineering design},
-    doi         = {10.1007/BF01743538},
-    journal     = {Structural optimization},
-    number      = {2},
-    pages       = {113--121},
-    volume      = {10},
-    year        = {1995}
+    year        = {1992},
+    keywords    = {MDO, optimization, structures}
 }
 
 @InProceedings{Bloebaum:1989,
@@ -5135,21 +5025,12 @@
     year        = {1990}
 }
 
-@Article{Bloebaum:1992:A,
-    author      = {C. L. Bloebaum and P. Hajela and J. Sobieszczanski--Sobieski},
-    title       = {Non-Hierarchic System Decomposition in Structural Optimization},
-    journal     = {Engineering Optimization},
-    keywords    = {MDO, optimization, structures},
-    number      = {3},
-    pages       = {171--186},
-    volume      = {19},
-    year        = {1992}
-}
-
 @Article{Bloebaum:1995:A,
     author      = {C.L. Bloebaum},
     title       = {Coupling strength-based system reduction for complex engineering design},
+    doi         = {10.1007/BF01743538},
     journal     = {Structural Optimization},
+    number      = {2},
     pages       = {113--121},
     volume      = {10},
     year        = {1995}
@@ -5239,22 +5120,6 @@
     month       = {July},
     number      = {D6-58329},
     year        = {1998}
-}
-
-@Article{Boer2007a,
-    author      = {de Boer, A. and van der Schoot, M. S. and Bijl, H.},
-    title       = {Mesh deformation based on radial basis function interpolation},
-    doi         = {10.1016/j.compstruc.2007.01.013},
-    issn        = {0045-7949},
-    journal     = {Computers \& Structures},
-    keywords    = {Fluid--structure interaction, Mesh deformation, Mesh quality quantification, Point-to-point scheme, Radial basis function interpolation, Unstructured meshes},
-    month       = {June},
-    number      = {11},
-    pages       = {784--795},
-    series      = {Fourth {MIT} Conference on Computational Fluid and Solid Mechanics},
-    volume      = {85},
-    year        = {2007},
-    abstract    = {A new mesh movement algorithm for unstructured grids is developed which is based on interpolating displacements of the boundary nodes to the whole mesh with radial basis functions (RBF's). A small system of equations, only involving the boundary nodes, has to be solved and no grid-connectivity information is needed. The method can handle large mesh deformations caused by translations, rotations and deformations, both for 2D and 3D meshes. However, the performance depends on the used RBF. The best accuracy and robustness with the highest efficiency are obtained with a C2 continuous RBF with compact support, closely followed by the thin plate spline. The deformed meshes are suitable for flow computations as is shown by performing calculations around a NACA-0012 airfoil.}
 }
 
 @Article{Boggs1995,
@@ -5751,20 +5616,12 @@
     title       = {Turbo- and Hybrid-Electrified Aircraft Propulsion Concepts for Commercial Transport},
     booktitle   = {2018 {AIAA}/{IEEE} {Electric} {Aircraft} {Technologies} {Symposium} ({EATS})},
     doi         = {10.2514/6.2018-4984},
-    keywords    = {aerospace propulsion, aircraft, Aircraft, aircraft concepts, aircraft electric propulsion architectures, Aircraft propulsion, aircraft system studies, Batteries, electric propulsion, electrical systems, Fans, fuel-based propulsion system, Fuels, hybrid-electrified aircraft propulsion concepts, Mechanical power transmission, NASA, potential benefit},
     month       = {July},
+    notes       = {2018-4984},
     pages       = {1--8},
     year        = {2018},
+    keywords    = {aerospace propulsion, aircraft, Aircraft, aircraft concepts, aircraft electric propulsion architectures, Aircraft propulsion, aircraft system studies, Batteries, electric propulsion, electrical systems, Fans, fuel-based propulsion system, Fuels, hybrid-electrified aircraft propulsion concepts, Mechanical power transmission, NASA, potential benefit},
     abstract    = {This review of aircraft electric propulsion architectures conveys that several aircraft system studies have indicated a potential benefit associated with using electrical systems to replace or augment the traditional fuel-based propulsion system. This exciting new approach for designing aircraft opens the door for new configurations. It is also important to convey that this field of study is in its infancy and much improvement is required across the breadth of supporting technologies if the promise of these aircraft concepts is to be realized.}
-}
-
-@InProceedings{bowman_2018,
-    author      = {C. L. {Bowman} and J. L. {Felder} and T. V. {Marien}},
-    title       = {Turbo- and Hybrid-Electrified Aircraft Propulsion Concepts for Commercial Transport},
-    booktitle   = {2018 AIAA/IEEE Electric Aircraft Technologies Symposium (EATS)},
-    doi         = {10.2514/6.2018-4984},
-    notes       = {2018-4984},
-    year        = {2018}
 }
 
 @Article{Box1976,
@@ -5879,15 +5736,6 @@
     year        = {2022}
 }
 
-@InProceedings{Braun1993,
-    author      = {Robert D. Braun and Ilan M. Kroo and Peter J. Gage},
-    title       = {Post-Optimality Analysis in Aerospace Vehicle Design},
-    address     = {Monterey, CA},
-    booktitle   = {Proceedings of the {AIAA} aircraft design, systems, and operations meeting},
-    publisher   = {{AIAA}},
-    year        = {1993}
-}
-
 @PhDThesis{Braun1996a,
     author      = {Robert D. Braun},
     title       = {Collaborative Optimization: An Architecture for Large-Scale Distributed Design},
@@ -5939,10 +5787,11 @@
     title       = {Post-Optimality Analysis in Aerospace Vehicle Design},
     address     = {{M}onterey,~{CA}},
     booktitle   = {Proceedings of the AIAA Aircraft Design, Systems and Operations Meeting},
-    keywords    = {MDO, CO},
     month       = {August},
     note        = {{AIAA} 93-3932},
-    year        = 1993
+    publisher   = {{AIAA}},
+    year        = 1993,
+    keywords    = {MDO, CO}
 }
 
 @Article{Bravo-Mosquera2022,
@@ -6397,7 +6246,9 @@
     author      = {R.B. Skoog and H.H. Brown},
     title       = {A Method for the Determination of the Spanwise Load Distribution of a Flexible Swept Wing at Subsonic Speeds},
     institution = {National Advisory Committee for Aeronautics},
+    month       = {March},
     number      = {TN-2222},
+    type        = {NACA Report},
     year        = {1951}
 }
 
@@ -6414,17 +6265,6 @@
     year        = {1990}
 }
 
-@InProceedings{Brown1997a,
-    author      = {Brown, S.},
-    title       = {Displacement extrapolations for {CFD}+{CSM} aeroelastic analysis},
-    booktitle   = {38th {Structures}, {Structural} {Dynamics}, and {Materials} {Conference}},
-    doi         = {10.2514/6.1997-1090},
-    month       = {April},
-    publisher   = {American Institute of Aeronautics and Astronautics},
-    series      = {Structures, {Structural} {Dynamics}, and {Materials} and {Co}-located {Conferences}},
-    year        = {1997}
-}
-
 @Article{Brown2006,
     author      = {Nichols F. Brown and John R. Olds},
     title       = {Evaluation of Multidisciplinary Optimization Techniques Applied to a Reusable Launch Vehicle},
@@ -6434,7 +6274,8 @@
     number      = {6},
     pages       = {1289--1300},
     volume      = {43},
-    year        = {2006}
+    year        = {2006},
+    keywords    = {MDO, comparison}
 }
 
 @Article{Brown2016a,
@@ -6486,12 +6327,16 @@
 
 @InProceedings{Brown:1997,
     author      = {Brown, S. A.},
-    title       = {Displacement Extrapolation for {CFD}+{CSM} Aeroelastic Analysis},
+    title       = {Displacement extrapolations for {CFD}+{CSM} aeroelastic analysis},
     address     = {Reno, NV},
-    booktitle   = {Proceedings of the 35th AIAA Aerospace Sciences Meeting},
-    keywords    = {aerostructures, CFD, FEM},
+    booktitle   = {38th AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference},
+    doi         = {10.2514/6.1997-1090},
+    month       = {April},
     note        = {AIAA 1997-1090},
-    year        = {1997}
+    publisher   = {American Institute of Aeronautics and Astronautics},
+    series      = {Structures, {Structural} {Dynamics}, and {Materials} and {Co}-located {Conferences}},
+    year        = {1997},
+    keywords    = {aerostructures, CFD, FEM}
 }
 
 @TechReport{Brown:2004:A,
@@ -6512,17 +6357,6 @@
     year        = 2005
 }
 
-@Article{Brown:2006:AAA,
-    author      = {Nichols F. Brown and John R. Olds},
-    title       = {Evaluation of Multidisciplinary Optimization Techniques Applied to a Reusable Launch Vehicle},
-    journal     = {Journal of Spacecraft and Rockets},
-    keywords    = {MDO, comparison},
-    number      = {6},
-    pages       = {1289--1300},
-    volume      = {43},
-    year        = {2006}
-}
-
 @Misc{Browne1979a,
     author      = {Malcolm W. Browne},
     title       = {A {Soviet} Discovery Rocks World of Mathematics},
@@ -6532,18 +6366,9 @@
 
 @Article{Browning2001,
     author      = {Tyson R. Browning},
-    title       = {Applying the Design Structure Matrix to Decomposition and Integration Problems: A Review and New Directions},
+    title       = {Applying the Design Structure Matrix to System Decomposition and Integration Problems: A Review and New Directions},
     doi         = {10.1109/17.946528},
     journal     = {{IEEE} Transactions on Engineering Management},
-    pages       = {292--306},
-    volume      = {48},
-    year        = {2001}
-}
-
-@Article{Browning:2001:A,
-    author      = {Tyson R. Browning},
-    title       = {Applying the Design Structure Matrix to System Decomposition and Integration Problems: A Review and New Directions},
-    journal     = {IEEE Transactions on Engineering Management},
     number      = {3},
     pages       = {292--306},
     volume      = {48},
@@ -6836,7 +6661,7 @@
     title       = {Aerostructural Design Optimization of an Adaptive Morphing Trailing Edge Wing},
     address     = {Kissimmee, FL},
     booktitle   = {Proceedings of the AIAA Science and Technology Forum and Exposition (SciTech)},
-    doi         = {10.2514/6.2016-1294},
+    doi         = {10.2514/6.2015-1129},
     keywords    = {xsede},
     month       = {January},
     year        = {2015}
@@ -7234,6 +7059,7 @@
 @InProceedings{capri,
     author      = {R. Haimes and G. Follen},
     title       = {Computational Analysis Programming Interface},
+    address     = {University of Greenwich},
     booktitle   = {Proceedings of the 6th International Conference on Numerical Grid Generation in Computational Field Simulations},
     editor      = {Cross and Eiseman and Hauser and Soni and Thompson},
     month       = {July},
@@ -7883,22 +7709,14 @@
     year        = {1999}
 }
 
-@InProceedings{Chan2002,
-    author      = {Chan, William and Gomez, Reynaldo and Rogers, Stuart and Buning, Pieter},
-    title       = {Best Practices in Overset Grid Generation},
-    booktitle   = {32nd {AIAA} {Fluid} {Dynamics} {Conference} and {Exhibit}},
-    doi         = {10.2514/6.2002-3191},
-    month       = {June},
-    publisher   = {American Institute of Aeronautics and Astronautics},
-    series      = {Fluid Dynamics and Co-located Conferences},
-    year        = {2002}
-}
-
 @InProceedings{chan2002best,
     author      = {Chan, William and Gomez, Reynaldo and Rogers, Stuart and Buning, Pieter},
     title       = {Best practices in overset grid generation},
     booktitle   = {32nd AIAA Fluid Dynamics Conference and Exhibit},
     doi         = {10.2514/6.2002-3191},
+    month       = {June},
+    publisher   = {American Institute of Aeronautics and Astronautics},
+    series      = {Fluid Dynamics and Co-located Conferences},
     year        = {2002}
 }
 
@@ -8170,18 +7988,6 @@
                   difference is less than one drag count). The wings optimized without considering the propeller slipstream are naturally able to recover swirl almost as effectively as the wings optimized while considering the propeller slipstream, and the propeller-induced velocities for the cruise condition are not high enough to lead to significant airfoil-shape design changes.}
 }
 
-@InProceedings{Chauhan2024,
-    author      = {Shamsheer S. Chauhan and Gustavo {Padovany da Silva} and Gustavo L. O. Halila and Joaquim R. R. A. Martins and Jo{\~a}o Luiz F. Azevedo},
-    title       = {Investigating the Influence of an Inboard Propeller's Vertical Offset on a Trailing Wing's Lift and Drag Distributions},
-    address     = {Florence, Italy},
-    booktitle   = {Proceedings of the 34th International Council of the Aerospace Sciences},
-    month       = {September},
-    number      = {ICAS2024_0124},
-    year        = {2024},
-    abstract    = {Propeller-wing interaction has been a topic of investigation since the dawn of aviation. Surprisingly, however, there are few published studies showing how changing a tractor propeller's vertical offset affects a trailing wing's lift and drag distributions. In this work, we investigate this for a rectangular wing with an inboard propeller using steady Reynolds-averaged Navier--Stokes computational fluid dynamics and an actuator-disk approach. We present results for two angles of attack and a range of propeller-wing vertical offsets for both inboard-up and outboard-up propeller rotation. We include plots for spanwise sectional lift and drag coefficient distributions, integrated lift and drag coefficients, lift-to-drag ratios, and chordwise sectional pressure-coefficient distributions. The results show that changing the propeller-wing vertical offset can significantly change a trailing wing's lift and drag distributions, which strongly depend on the direction of the
-                  vertical offset.}
-}
-
 @Article{Chauhan2024a,
     author      = {Shamsheer S. Chauhan and Joaquim R. R. A. Martins},
     title       = {{RANS}-Based Aerodynamic Shape Optimization of a Wing with a Propeller in Front of the Wingtip},
@@ -8195,11 +8001,14 @@
 @InProceedings{Chauhan2024b,
     author      = {Shamsheer S. Chauhan and Gustavo {Padovany da Silva} and Gustavo L. O. Halila and Joaquim R. R. A. Martins and Joao L. F. Azevedo},
     title       = {Investigating the Influence of an Inboard Propeller's Vertical Offset on a Trailing Wing's Lift and Drag Distributions},
+    address     = {Florence, Italy},
     booktitle   = {Proceedings of the 34th ICAS Congress},
-    month       = {October},
+    month       = {September},
     number      = {ICAS2024 0124},
     publisher   = {ICAS},
-    year        = {2024}
+    year        = {2024},
+    abstract    = {Propeller-wing interaction has been a topic of investigation since the dawn of aviation. Surprisingly, however, there are few published studies showing how changing a tractor propeller's vertical offset affects a trailing wing's lift and drag distributions. In this work, we investigate this for a rectangular wing with an inboard propeller using steady Reynolds-averaged Navier--Stokes computational fluid dynamics and an actuator-disk approach. We present results for two angles of attack and a range of propeller-wing vertical offsets for both inboard-up and outboard-up propeller rotation. We include plots for spanwise sectional lift and drag coefficient distributions, integrated lift and drag coefficients, lift-to-drag ratios, and chordwise sectional pressure-coefficient distributions. The results show that changing the propeller-wing vertical offset can significantly change a trailing wing's lift and drag distributions, which strongly depend on the direction of the
+                  vertical offset.}
 }
 
 @Article{Chehouri2015kq,
@@ -8517,12 +8326,6 @@
     year        = {2019}
 }
 
-@webpage{ChenMakWu2019a,
-    author      = {Zhehui Chen and Simon Mak and Chi-Fang Wu},
-    title       = {A hierarchical expected improvement method for Bayesian optimization},
-    url         = {https://www.researchgate.net/publication/337336538_A_hierarchical_expected_improvement_method_for_Bayesian_optimization}
-}
-
 @Article{Chernukhin2013,
     author      = {Oleg Chernukhin and David W. Zingg},
     title       = {Multimodality and Global Optimization in Aerodynamic Design},
@@ -8623,15 +8426,6 @@
     booktitle   = {57th AIAA/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference, AIAA SciTech},
     doi         = {10.2514/6.2016-0939},
     year        = {2016}
-}
-
-@Article{Chin2019,
-    author      = {Ting Wei Chin and Mark L. Leader and Graeme J. Kennedy},
-    title       = {A Scalable Framework for Large-Scale {3D} Multimaterial Topology Optimization with Octree-based Mesh Adaptation},
-    doi         = {10.1016/j.advengsoft.2019.05.004},
-    journal     = {Advances in Engineering Software},
-    volume      = {135},
-    year        = {2019}
 }
 
 @Article{Chin:2018:TMR-paper,
@@ -9269,7 +9063,8 @@
     number      = {3},
     pages       = {277--305},
     volume      = {32},
-    year        = {1980}
+    year        = {1980},
+    keywords    = {optimization}
 }
 
 @Article{Cohen1990,
@@ -9281,18 +9076,6 @@
     pages       = {137--157},
     volume      = {28},
     year        = {1990}
-}
-
-@Article{Cohen:1980:A,
-    author      = {G. Cohen},
-    title       = {Auxiliary problem principle and decomposition of optimization problems},
-    journal     = {Journal of Optimization Theory and Applications},
-    keywords    = {optimization},
-    month       = {November},
-    number      = {3},
-    pages       = {277--305},
-    volume      = {32},
-    year        = {1980}
 }
 
 @Article{Cole2019,
@@ -9412,16 +9195,8 @@
     author      = {Andrew R. Conn and Nicholas I. M. Gould and Philippe L. Toint},
     title       = {Trust Region Methods},
     address     = {Philadelphia, PA},
-    publisher   = {{SIAM}},
-    year        = {2000}
-}
-
-@Book{Conn2000a,
-    author      = {A. R. Conn and N. I. M. Gould and Ph. L. Toint},
-    title       = {Trust Region Methods},
-    address     = {Philadelphia, PA},
     isbn        = {0898714605},
-    publisher   = {SIAM},
+    publisher   = {{SIAM}},
     year        = {2000}
 }
 
@@ -9844,16 +9619,6 @@
     year        = {2008}
 }
 
-@Article{Crouch2009aa,
-    author      = {Crouch, JD and Garbaruk, A and Magidov, D and Travin, A},
-    title       = {Origin of transonic buffet on aerofoils},
-    journal     = {Journal of fluid mechanics},
-    pages       = {357--369},
-    publisher   = {Cambridge Univ Press},
-    volume      = {628},
-    year        = {2009}
-}
-
 @Article{Crouch2009doi,
     author      = {J. D. Crouch and A. Garbaruk and D. Magidov and A. Travin},
     title       = {Origin of transonic buffet on aerofoils},
@@ -10013,18 +9778,8 @@
     number      = {6},
     pages       = {3447--3475},
     volume      = {32},
-    year        = {2010}
-}
-
-@Article{Curtis:2010:A,
-    author      = {Frank E. Curtis and Olaf Schenk and Adreas W\"achter},
-    title       = {An Interior Point Algorithm for Large-Scale Nonlinear Optimization with Inexact Step Computations},
-    journal     = {SIAM Journal on Scientific Computing},
-    keywords    = {IPOPT, optimization},
-    number      = {6},
-    pages       = {3447--3475},
-    volume      = {32},
-    year        = {2010}
+    year        = {2010},
+    keywords    = {IPOPT, optimization}
 }
 
 @TechReport{Cusdin2003ADL,
@@ -10035,17 +9790,6 @@
     note        = {www.ea.qub.ac.uk/pcusdin/index.php},
     number      = {QUB-SAE-03-05},
     year        = {2003}
-}
-
-@Article{Cusdin2005,
-    author      = {P. Cusdin and J.-D. M{\"u}ller},
-    title       = {On the Performance of Discrete Adjoint {CFD} Codes using Automatic Differentiation},
-    journal     = {International Journal of Numerical Methods in Fluids},
-    keywords    = {AD, Tapenade, comparison},
-    number      = {6-7},
-    pages       = {939--945},
-    volume      = {47},
-    year        = {2005}
 }
 
 @InProceedings{Cutajar2018,
@@ -10124,23 +9868,12 @@
     year        = {2017}
 }
 
-@Article{Dacles-Mariani1995,
-    author      = {Dacles-Mariani, Jennifer and Zilliac, Gregory G. and Chow, Jim S. and Bradshaw, Peter},
-    title       = {Numerical/experimental study of a wingtip vortex in the near field},
-    doi         = {10.2514/3.12826},
-    journal     = {AIAA Journal},
-    month       = {May},
-    number      = {9},
-    pages       = {1561-1568},
-    volume      = {33},
-    year        = {1995}
-}
-
 @Article{dacles1995,
     author      = {Dacles-Mariani, Jennifer and Zilliac, Gregory G and Chow, Jim S and Bradshaw, Peter},
     title       = {Numerical/experimental study of a wingtip vortex in the near field},
     doi         = {10.2514/3.12826},
     journal     = {AIAA journal},
+    month       = {May},
     number      = {9},
     pages       = {1561--1568},
     volume      = {33},
@@ -10451,26 +10184,21 @@
                   data. A number of practical conclusions are drawn regarding the set-up and sailing of foiling dinghies with flapped T-foils. Results show that whilst the simple and rapid models typically used in basic VPPs may not accurately represent the relationships between angle of attack / flap angle with lift and drag, the predicted relation between lift and drag is reasonably accurate in most cases.}
 }
 
-@InProceedings{DBLP:conf/icga/JonesB91,
-    author      = {Donald R. Jones and Mark A. Beltramo},
-    title       = {Solving Partitioning Problems with Genetic Algorithms},
-    booktitle   = {Proceedings of the 4th International Conference on Genetic Algorithms, San Diego, CA, USA, July 1991},
-    editor      = {Richard K. Belew and Lashon B. Booker},
-    pages       = {442--449},
-    publisher   = {Morgan Kaufmann},
-    year        = {1991}
-}
-
 @Article{De2007,
     author      = {De Boer, A and Van der Schoot, MS and Bijl, Hester},
     title       = {Mesh deformation based on radial basis function interpolation},
     doi         = {10.1016/j.compstruc.2007.01.013},
+    issn        = {0045-7949},
     journal     = {Computers \& Structures},
+    month       = {June},
     number      = {11-14},
     pages       = {784--795},
     publisher   = {Elsevier},
+    series      = {Fourth {MIT} Conference on Computational Fluid and Solid Mechanics},
     volume      = {85},
-    year        = {2007}
+    year        = {2007},
+    keywords    = {Fluid--structure interaction, Mesh deformation, Mesh quality quantification, Point-to-point scheme, Radial basis function interpolation, Unstructured meshes},
+    abstract    = {A new mesh movement algorithm for unstructured grids is developed which is based on interpolating displacements of the boundary nodes to the whole mesh with radial basis functions (RBF's). A small system of equations, only involving the boundary nodes, has to be solved and no grid-connectivity information is needed. The method can handle large mesh deformations caused by translations, rotations and deformations, both for 2D and 3D meshes. However, the performance depends on the used RBF. The best accuracy and robustness with the highest efficiency are obtained with a C2 continuous RBF with compact support, closely followed by the thin plate spline. The deformed meshes are suitable for flow computations as is shown by performing calculations around a NACA-0012 airfoil.}
 }
 
 @Article{De2015,
@@ -10532,19 +10260,6 @@
     year        = {2001}
 }
 
-@Article{Deb2002,
-    author      = {K. Deb and A. Pratap and S. Agarwal and T. Meyarivan},
-    title       = {A fast and elitist multiobjective genetic algorithm: {NSGA}-{II}},
-    doi         = {10.1109/4235.996017},
-    journal     = {{IEEE} Transactions on Evolutionary Computation},
-    month       = {apr},
-    number      = {2},
-    pages       = {182--197},
-    publisher   = {Institute of Electrical and Electronics Engineers ({IEEE})},
-    volume      = {6},
-    year        = 2002
-}
-
 @Article{Deb2002a,
     author      = {Deb, K. and Pratap, A. and Agarwal, S. and Meyarivan, T.},
     title       = {A fast and elitist multiobjective genetic algorithm: {NSGA-II}},
@@ -10554,6 +10269,7 @@
     month       = {apr},
     number      = {2},
     pages       = {182--197},
+    publisher   = {Institute of Electrical and Electronics Engineers ({IEEE})},
     volume      = {6},
     year        = {2002}
 }
@@ -10951,12 +10667,13 @@
 }
 
 @Article{deSturler:1999:SOK,
-    author      = {Eric de Struler},
-    title       = {Strategies for optimal {K}rylov subspace methods},
+    author      = {Eric de Sturler},
+    title       = {Truncation Strategies for Optimal {K}rylov Subspace Methods},
     journal     = {{SIAM} Journal on Numerical Analysis},
     number      = {3},
     pages       = {864--889},
-    volume      = {36}
+    volume      = {36},
+    year        = {1999}
 }
 
 @Book{Devillers1918a,
@@ -10988,8 +10705,10 @@
 @PhDThesis{deWit2009,
     author      = {Albert Jan {De Wit}},
     title       = {A Unified Approach to Decomposition and Coordination for Multi-Level Optimization},
+    address     = {Netherlands},
     school      = {Delft University of Technology},
-    year        = {2009}
+    year        = {2009},
+    keywords    = {MDO}
 }
 
 @Conference{deWit2010,
@@ -11411,18 +11130,6 @@
     year        = {2022}
 }
 
-@InProceedings{Drachinsky2022b,
-    author      = {Drachinsky, A. and Avin, O. and Raveh, D. E. and Ben-Shmuel, Y. and Tur, M.},
-    title       = {Flutter Tests of the Pazy Wing},
-    address     = {San Diego, CA and Online},
-    booktitle   = {2022 AIAA SciTech Forum},
-    doi         = {10.2514/6.2022-2186},
-    month       = {3--7 January},
-    note        = {AIAA-2022-2186},
-    pages       = {1--19},
-    year        = {2022}
-}
-
 @Unpublished{Drela-08-spl8,
     author      = {Mark Drela},
     title       = {Lab 8 Notes---Basic Aircraft Design Rules},
@@ -11664,6 +11371,7 @@
     author      = {Xiaosong Du and Leifur Leifsson},
     title       = {Optimum aerodynamic shape design under uncertainty by utility theory and metamodeling},
     doi         = {10.1016/j.ast.2019.105464},
+    issn        = {1270-9638},
     journal     = {Aerospace Science and Technology},
     month       = {December},
     pages       = {105464},
@@ -11680,17 +11388,6 @@
     journal     = {Aerospace Science and Technology},
     pages       = {371-385},
     volume      = {85},
-    year        = {2019}
-}
-
-@Article{Du2019PCE,
-    author      = {Xiaosong Du and Leifur Leifsson},
-    title       = {Optimum aerodynamic shape design under uncertainty by utility theory and metamodeling},
-    doi         = {10.1016/j.ast.2019.105464},
-    issn        = {1270-9638},
-    journal     = {Aerospace Science and Technology},
-    pages       = {105464},
-    volume      = {95},
     year        = {2019}
 }
 
@@ -11974,17 +11671,6 @@
     year        = 1998
 }
 
-@Article{Dwight2006,
-    author      = {Richard P. Dwight and Jo\"{e}l Brezillon},
-    title       = {Effect of Approximations of the Discrete Adjoint on Gradient-Based Optimization},
-    doi         = {10.2514/1.21744},
-    journal     = {AIAA Journal},
-    number      = {12},
-    pages       = {3022--3031},
-    volume      = {44},
-    year        = {2006}
-}
-
 @Article{Dwight2009,
     author      = {Richard P. Dwight and Jo\"{e}l Brezillon},
     title       = {Efficient and robust algorithms for solution of the adjoint compressible {Navier--Stokes} equations with applications},
@@ -11996,8 +11682,9 @@
 }
 
 @Article{Dwight:2006:EAD,
-    author      = {Richard P. Dwight and Jo\"{e}l Brezillion},
+    author      = {Richard P. Dwight and Jo\"{e}l Brezillon},
     title       = {Effect of Approximations of the Discrete Adjoint on Gradient-Based Optimization},
+    doi         = {10.2514/1.21744},
     journal     = {AIAA Journal},
     number      = {12},
     pages       = {3022--3031},
@@ -12399,18 +12086,9 @@
     author      = {Frank Emmert-Streib and Zhen Yang and Han Feng and Shailesh Tripathi and Matthias Dehmer},
     title       = {An Introductory Review of Deep Learning for Prediction Models With Big Data},
     doi         = {10.3389/frai.2020.00004},
-    journal     = {Frontiers in Artificial Intelligence},
-    number      = {4},
-    volume      = {3},
-    year        = {2020}
-}
-
-@Article{Emmert2020,
-    author      = {Emmert-Streib, Frank and Yang, Zhen and Feng, Han and Tripathi, Shailesh and Dehmer, Matthias},
-    title       = {An Introductory Review of Deep Learning for Prediction Models With Big Data},
-    doi         = {10.3389/frai.2020.00004},
     issn        = {2624-8212},
     journal     = {Frontiers in Artificial Intelligence},
+    number      = {4},
     pages       = {4},
     volume      = {3},
     year        = {2020}
@@ -12439,18 +12117,6 @@
 }
 
 @Article{Engelsen2004a,
-    author      = {Engelsen, Frode and Livne, Eli},
-    title       = {Quadratic Stress Failure Constraints for Structures Under Combined Steady and Random Excitation},
-    doi         = {10.2514/1.9037},
-    journal     = {AIAA Journal},
-    month       = {April},
-    number      = {1},
-    pages       = {132--140},
-    volume      = {42},
-    year        = {2004}
-}
-
-@Article{Engelsen2004b,
     author      = {Engelsen, Frode and Livne, Eli},
     title       = {Quadratic Stress Failure Constraints for Structures Under Combined Steady and Random Excitation},
     booktitle   = {AIAA Journal},
@@ -12747,26 +12413,16 @@
     year        = {2015}
 }
 
-@Article{Fagan2005,
-    author      = {Fagan, Mike and Carle, Alan},
-    title       = {Reducing reverse-mode memory requirements by using profile-driven checkpointing},
-    journal     = {Future Generation Computer Systems},
-    number      = {8},
-    pages       = {1380--1390},
-    publisher   = {Elsevier},
-    volume      = {21},
-    year        = {2005}
-}
-
 @Article{Fagan:2005:RRM,
     author      = {Mike Fagan and Alan Carle},
     title       = {Reducing Reverse-Mode Memory Requirements by Using Profile-Driven Checkpointing},
     journal     = {Future Generation Comp. Syst.},
-    keywords    = {AD},
     number      = {8},
     pages       = {1380--1390},
+    publisher   = {Elsevier},
     volume      = {21},
-    year        = {2005}
+    year        = {2005},
+    keywords    = {AD}
 }
 
 @Article{Fakhimi2022s,
@@ -13086,15 +12742,8 @@
     author      = {James L. Felder and Gerald V. Brown and Hyun Dae Kim and Julio Chu},
     title       = {Turboelectric Distributed Propulsion in a Hybrid Wing Body Aircraft},
     booktitle   = {International Symposium on Air Breathing Engines 2011},
-    notes       = {ISABE-2011-1340},
-    year        = {2011}
-}
-
-@InProceedings{felder_tedp,
-    author      = {Felder, James L. and Brown, Gerald V. and Kim Huun Dea and Chu, Julio},
-    title       = {Turboelectric Distributed Propulsion in a Hybrid Wing Body Aircraft},
-    booktitle   = {20th Air Breathing Engines International Symposiumx},
     note        = {ISABE-2011-1340},
+    notes       = {ISABE-2011-1340},
     organization= {ISABE},
     year        = {2011}
 }
@@ -13157,16 +12806,6 @@
     publisher   = {Elsevier},
     volume      = {27},
     year        = {2014}
-}
-
-@Book{FEniCS:2012,
-    author      = {Anders Logg and Kent-Andre Mardal and Garth N. Wells and others},
-    title       = {Automated Solution of Differential Equations by the Finite Element Method},
-    doi         = {10.1007/978-3-642-23099-8},
-    editor      = {Anders Logg and Kent-Andre Mardal and Garth N. Wells},
-    isbn        = {978-3-642-23098-1},
-    publisher   = {Springer},
-    year        = {2012}
 }
 
 @Article{Ferguson1956,
@@ -13273,18 +12912,8 @@
     number      = {4},
     pages       = {673--694},
     volume      = {49},
-    year        = {2011}
-}
-
-@Article{Fidkowski2011a,
-    author      = {Krzysztof J. Fidkowski and David L. Darmofal},
-    title       = {Output-Based Error Estimation and Mesh Adaptation in Computational Fluid Dynamics: Overview and Recent Results},
-    journal     = {AIAA Journal},
-    keywords    = {error estimation, adjoint, CFD},
-    number      = {4},
-    pages       = {673--694},
-    volume      = {49},
-    year        = {2011}
+    year        = {2011},
+    keywords    = {error estimation, adjoint, CFD}
 }
 
 @Article{fiduccia:1988,
@@ -13382,21 +13011,15 @@
     abstract    = {In this paper we show that the convergence behavior of the DIviding RECTangles (DIRECT) algorithm is sensitive to additive scaling of the objective function. We illustrate this problem with a computation and show how the algorithm can be modified to eliminate this sensitivity.}
 }
 
-@Manual{Finkel:2003:A,
+@Manual{finkel_direct,
     author      = {Daniel E. Finkel},
     title       = {{DIRECT} Optimization Algorithm User Guide},
     address     = {Raleigh, NC},
-    keywords    = {optimization},
+    howpublished= {https://pdfs.semanticscholar.org/a069/866d6bd36937556560f5e9b4411bd1f81953.pdf},
     month       = {March},
     organization= {Center for Research in Scientific Computation, North Carolina State University},
-    year        = {2003}
-}
-
-@Misc{finkel_direct,
-    author      = {Daniel E. Finkel},
-    title       = {{DIRECT} Optimization Algorithm User Guide},
-    howpublished= {https://pdfs.semanticscholar.org/a069/866d6bd36937556560f5e9b4411bd1f81953.pdf},
-    year        = {2003}
+    year        = {2003},
+    keywords    = {optimization}
 }
 
 @TechReport{finkel_kelly_2004,
@@ -13479,20 +13102,6 @@
     year        = {2015}
 }
 
-@Article{Fletcher1963,
-    author      = {Fletcher, R. and Powell, M. J. D.},
-    title       = {A rapidly convergent descent method for minimization},
-    doi         = {10.1093/comjnl/6.2.163},
-    issn        = {1460-2067},
-    journal     = {The Computer Journal},
-    month       = {Aug},
-    number      = {2},
-    pages       = {163--168},
-    publisher   = {Oxford University Press (OUP)},
-    volume      = {6},
-    year        = {1963}
-}
-
 @Article{Fletcher1964a,
     author      = {R. Fletcher and C. M. Reeves},
     title       = {Function minimization by conjugate gradients},
@@ -13555,12 +13164,15 @@
     author      = {R. Fletcher and M. J. D. Powell},
     title       = {A rapidly convergent descent method for minimization},
     doi         = {10.1093/comjnl/6.2.163},
+    issn        = {1460-2067},
     journal     = {The Computer Journal},
-    keywords    = {quasi-Newton methods},
+    month       = {Aug},
     number      = {2},
     pages       = {163--168},
+    publisher   = {Oxford University Press (OUP)},
     volume      = {6},
-    year        = {1963}
+    year        = {1963},
+    keywords    = {quasi-Newton methods}
 }
 
 @Article{flex_wing,
@@ -13614,16 +13226,6 @@
     month       = {April},
     number      = {TM-2000-209913},
     year        = {2000}
-}
-
-@TechReport{Follen2013,
-    author      = {Follen, Gregory and auBuchon, Mark},
-    title       = {Numerical Zooming Between a NPSS Engine System Simulation and a One-Dimensional High Compressor Analysis Code},
-    address     = {Moffett Field, California},
-    institution = {NASA},
-    month       = {February},
-    number      = {TM-2000-209913},
-    year        = {2013}
 }
 
 @TechReport{Follen:2006:A,
@@ -13717,19 +13319,6 @@
     year        = {2007}
 }
 
-@Article{Forsgren:2002:A,
-    author      = {Anders Forsgren and Philip E. Gill and Margaret H. Wright},
-    title       = {Interior Methods for Nonlinear Optimization},
-    doi         = {10.1137/S0036144502414942},
-    journal     = {SIAM Review},
-    number      = {4},
-    pages       = {525--597},
-    publisher   = {SIAM},
-    url         = {http://link.aip.org/link/?SIR/44/525/1},
-    volume      = {44},
-    year        = {2002}
-}
-
 @Article{Forssen,
     author      = {P. Forssen and R. Arnell and T. Fornstedt},
     title       = {An improved algorithm for solving inverse problems in liquid chromatography},
@@ -13739,18 +13328,6 @@
     keywords    = {Adsorption isotherms},
     number      = {9},
     pages       = {1381 - 1391},
-    volume      = {30},
-    year        = {2006}
-}
-
-@Article{Forssen2006,
-    author      = {P. Forssen and R. Arnell and T. Fornstedt},
-    title       = {An Improved Algorithm for Solving Inverse Problems in Liquid Chromatography},
-    doi         = {10.1016/j.compchemeng.2006.03.004},
-    issn        = {0098-1354},
-    journal     = {Computers \& Chemical Engineering},
-    number      = {9},
-    pages       = {1381-1391},
     volume      = {30},
     year        = {2006}
 }
@@ -14155,14 +13732,15 @@
 }
 
 @Article{Gablonsky2001,
-    author      = {J. Gablonsky and C.T. Kelly},
+    author      = {J. M. Gablonsky and C. T. Kelley},
     title       = {A locally-biased form of the \uppercase{DIRECT} algorithm},
     journal     = {Journal of Global Optimization},
     number      = {1},
     pages       = {27--37},
     publisher   = {Springer Nature},
     volume      = {21},
-    year        = {2001}
+    year        = {2001},
+    keywords    = {optimization}
 }
 
 @PhDThesis{Gablonsky2001t,
@@ -14170,16 +13748,6 @@
     title       = {Modifications of the DIRECT Algorithm},
     address     = {Raleigh, NC, USA},
     school      = {North Carolina State University},
-    year        = {2001}
-}
-
-@Article{Gablonsky:2001:A,
-    author      = {J. M. Gablonsky and C. T. Kelley},
-    title       = {A Locally-Biased form of the DIRECT Algorithm},
-    journal     = {Journal of Global Optimization},
-    keywords    = {optimization},
-    pages       = {27--37},
-    volume      = {21},
     year        = {2001}
 }
 
@@ -14214,14 +13782,6 @@
 @PhDThesis{Gage:1994,
     author      = {Gage, P.},
     title       = {New Approaches to Optimization in Aerospace Conceptual Design},
-    month       = {December},
-    school      = {Stanford University},
-    year        = {1994}
-}
-
-@PhDThesis{Gage:1995:A,
-    author      = {Peter James Gage},
-    title       = {New approaches to optimization in aerospace conceptual design},
     address     = {Stanford, CA 94305},
     month       = {December},
     school      = {Stanford University},
@@ -14652,16 +14212,6 @@
     year        = {2019}
 }
 
-@Article{gcrot,
-    author      = {Sturler, E.},
-    title       = {Truncation Strategies for Optimal {K}rylov Subspace Methods},
-    journal     = {SIAM Journal on Numerical Analysis},
-    number      = {3},
-    pages       = {864--889},
-    volume      = {36},
-    year        = {1999}
-}
-
 @Article{gearhart_1966,
     author      = {W. S. Gearhart and R. E. Henderson},
     title       = {Selection of a Propulsor for a Submersible System},
@@ -14977,16 +14527,6 @@
     year        = {1997}
 }
 
-@Article{Giering:1998:RFA,
-    author      = {Ralf Giering and Thomas Kaminski},
-    title       = {{R}ecipes for {A}djoint {C}ode {C}onstruction},
-    journal     = {ACM Transactions on Mathematical Software},
-    number      = 4,
-    pages       = {437--474},
-    volume      = 24,
-    year        = {1998}
-}
-
 @Article{Giesselmann2006,
     author      = {J Giesselmann},
     title       = {Development of an Active Magnetic Attitude Determination and Control System for Picosatellites on highly inclined circular Low Earth Orbits},
@@ -15088,18 +14628,8 @@
     number      = {1},
     pages       = {67--74},
     volume      = {26},
-    year        = {1989}
-}
-
-@Article{Giles:1989:AAA,
-    author      = {Gary L. Giles},
-    title       = {Further Generalization of an Equivalent Plate Representation for Aircraft Structural Analysis},
-    journal     = {Journal of Aircraft},
-    keywords    = {FEM, structures},
-    number      = {1},
-    pages       = {67--74},
-    volume      = {26},
-    year        = {1989}
+    year        = {1989},
+    keywords    = {FEM, structures}
 }
 
 @Book{Gill1981,
@@ -15810,12 +15340,6 @@
     year        = 2005
 }
 
-@Article{gopinath2005time,
-    author      = {Gopinath, Arathi and Jameson, Antony},
-    title       = {Time spectral method for periodic unsteady computations over two-and three-dimensional bodies},
-    year        = {2005}
-}
-
 @Article{Gordnier2009a,
     author      = {Raymond E. Gordnier and Miguel R. Visbal and Ismet Gursul and Zhijin Wang},
     title       = {Computational and Experimental Investigation of a Nonslender Delta Wing},
@@ -16469,14 +15993,6 @@
                   amount of data{\newline} that are accessed strictly sequentially and are{\newline} therefore automatically paged out to external files.}
 }
 
-@Book{Griewank2000,
-    author      = {Andreas Griewank},
-    title       = {Evaluating Derivatives},
-    address     = {Philadelphia},
-    publisher   = {{SIAM}},
-    year        = {2000}
-}
-
 @InCollection{Griewank2003,
     author      = {Griewank, Andreas and Faure, Christ{\`e}le},
     title       = {Piggyback differentiation and optimization},
@@ -16826,7 +16342,7 @@
 @Article{Guillard1999a,
     author      = {Herv{\'e} Guillard and C{\'e}cile Viozat},
     title       = {On the behaviour of upwind schemes in the low {M}ach number limit},
-    doi         = {10.1016/j.camwa.2018.02.028},
+    doi         = {10.1016/S0045-7930(98)00017-6},
     journal     = {Computers {\&} Fluids},
     number      = {1},
     pages       = {63--86},
@@ -16995,6 +16511,8 @@
     author      = {B. Moulin and M. Karpel},
     title       = {Gust Loads Alleviation Using Special Control Surfaces},
     journal     = {Journal of Aircraft},
+    number      = {1},
+    pages       = {17-25},
     volume      = {44},
     year        = {2007}
 }
@@ -17577,15 +17095,6 @@
     year        = {1997}
 }
 
-@InProceedings{Haimes:1998:A,
-    author      = {Haimes, R. and Follen, G.},
-    title       = {{C}omputational {A}nalysis {PR}ogramming {I}nterface},
-    address     = {University of Greenwich},
-    booktitle   = {Proceedings of the 6th International Conference on Numerical Grid Generation in Computational Field Simulations},
-    month       = {June},
-    year        = {1998}
-}
-
 @InProceedings{Haimes:2005:A,
     author      = {Haimes, R. and Merchant, A.},
     title       = {Direct {CAD} Access for Analysis and Design},
@@ -17822,20 +17331,6 @@
                   corresponding NPs so that a robust PSE calculation is automatically performed. The current approach leverages an automatic framework for the application of PSE-based transition prediction to aerodynamic flow analysis.}
 }
 
-@Article{Halila2021bc,
-    author      = {Gustavo L. O. Halila and K. Fidkowski and Joaquim R. R. A. Martins},
-    title       = {Toward Automatic Parabolized Stability Equation-Based Transition-to-Turbulence Prediction for Aerodynamic Flows},
-    doi         = {10.2514/1.J059516},
-    journal     = {AIAA Journal},
-    month       = {February},
-    number      = {2},
-    pages       = {462--473},
-    volume      = {59},
-    year        = {2021},
-    abstract    = {The inclusion of transition-to-turbulence effects in computational fluid dynamics simulations is essential to accurately predict drag reduction from the use of laminar flow technologies. The parabolized stability equation (PSE) method takes into account nonlocal and nonparallel effects on boundary-layer dynamics. Its computational cost compares to that of linear stability theory (LST) analysis, which does not account for these effects. However, difficulties related to the robustness of PSE have prevented its application to industrial cases, where the more straightforward LST approach has been adopted because of its relative ease of use. When using PSE with an eN transition method, it is necessary to determine the stability modes that trigger transition and their neutral points (NPs). A robust PSE-based transition framework is proposed that includes a boundary-layer solver, a database method, and an LST solver that provides the required stability modes and the
-                  corresponding NPs so that a robust PSE calculation is automatically performed. The current approach leverages an automatic framework for the application of PSE-based transition prediction to aerodynamic flow analysis.}
-}
-
 @Article{Halila2022,
     author      = {Gustavo L. O. Halila and Anil Yildirim and Charles A. Mader and Krzysztof J. Fidkowski and Joaquim R. R. A. Martins},
     title       = {Linear Stability-Based Smooth {Reynolds}-Averaged {Navier}--{Stokes} Transition Model for Aerodynamic Flows},
@@ -17949,6 +17444,7 @@
     booktitle   = {AIAA AVIATION Forum},
     doi         = {10.2514/6.2018-3973},
     month       = {June},
+    note        = {AIAA 2018-3973},
     publisher   = {American Institute of Aeronautics and Astronautics},
     year        = {2018}
 }
@@ -17962,15 +17458,6 @@
     month       = {January},
     publisher   = {American Institute of Aeronautics and Astronautics},
     year        = {2021}
-}
-
-@InProceedings{hall_signomial_2018,
-    author      = {David K. Hall and Aidan Dowdle and Jonas Gonzalez and Lauren Trollinger and William Thalheimer},
-    title       = {Assessment of a Boundary Layer Ingesting Turboelectric Aircraft Configuration using Signomial Programming},
-    booktitle   = {2018 Aviation Technology, Integration, and Operations Conference, AIAA AVIATION Forum},
-    doi         = {10.2514/6.2018-3973},
-    note        = {AIAA 2018-3973},
-    year        = {2018}
 }
 
 @InProceedings{Halliwell1998,
@@ -18593,24 +18080,12 @@
     author      = {Z. Hashin},
     title       = {Failure Criteria for Unidirectional Fiber Composites},
     doi         = {10.1115/1.3153664},
+    isbn        = {0021-8936},
     journal     = {Journal of Applied Mechanics},
     month       = {June},
     number      = {2},
     pages       = {329--334},
     publisher   = {{ASME} International},
-    volume      = {47},
-    year        = {1980}
-}
-
-@Article{Hashin:1980aa,
-    author      = {Hashin, Z.},
-    title       = {Failure Criteria for Unidirectional Fiber Composites},
-    isbn        = {0021-8936},
-    journal     = {Journal of Applied Mechanics},
-    month       = {06},
-    number      = {2},
-    pages       = {329--334},
-    publisher   = {ASME},
     volume      = {47},
     year        = {1980}
 }
@@ -19203,6 +18678,8 @@
 @Article{Hegseth2020b,
     author      = {John Marius Hegseth and Erin E. Bachynski and Joaquim R. R. A. Martins},
     title       = {Design Optimization of Spar Floating Wind Turbines Considering Different Control Strategies},
+    address     = {Trondheim, Norway},
+    booktitle   = {Journal of Physics: Conference Series, Volume 1669, EERA DeepWind'2020 15 -- 17 January 2020, Radisson},
     doi         = {10.1088/1742-6596/1669/1/012010},
     journal     = {Journal of Physics: Conference Series},
     month       = {October},
@@ -19212,14 +18689,6 @@
     year        = 2020,
     abstract    = {One of the challenges related to the design of floating wind turbines (FWTs) is the strong interactions between the controller and the support structure, which may result in an unstable system. Several control strategies have been proposed to improve the dynamic behaviour, all of which result in trade-offs between structural loads, rotor speed variation, and blade pitch actuator use, which makes controller design a challenging task. Due to the interactions, simultaneous design of the controller and support structure should be performed to properly identify and compare different solutions. In the present work, integrated design optimization of the blade-pitch controller and support structure is performed for a 10 MW spar FWT, considering four different control strategies, to evaluate the effect of the controller on the structural design and associated costs. The introduction of velocity feedback control reduces the platform pitch response and consequently the fatigue
                   loads in the tower, which leads to a decrease in the tower costs compared to a simple PI controller. Low-pass filtering of the nacelle velocity signal to remove the wave-frequency components results in reduced rotor speed variation, but offers only small improvements in costs, likely due to the limited wave-frequency response for the considered designs. Comparisons with nonlinear time-domain simulations show that the linearized model is able to capture trends with acceptable accuracy, but that significant overpredictions may occur for the platform pitch response.}
-}
-
-@Conference{Hegseth2020c,
-    author      = {John Marius Hegseth and Erin E. Bachynski and Joaquim R. R. A. Martins},
-    title       = {Design Optimization of Spar Floating Wind Turbines Considering Different Control Strategies},
-    address     = {Trondheim, Norway},
-    booktitle   = {Journal of Physics: Conference Series, Volume 1669, EERA DeepWind'2020 15 -- 17 January 2020, Radisson},
-    year        = {2020}
 }
 
 @Article{Heidebrecht2019,
@@ -19347,14 +18816,6 @@
     year        = {2009}
 }
 
-@MastersThesis{Henderson2010,
-    author      = {Ryan Henderson},
-    title       = {Multidisciplinary Design Optimization of Airframe and Engine for Emissions Reduction},
-    month       = {January},
-    school      = {University of Toronto},
-    year        = {2010}
-}
-
 @Article{Henderson2012a,
     author      = {Ryan P. Henderson and Joaquim R. R. A. Martins and Ruben E. Perez},
     title       = {Aircraft Conceptual Design for Optimal Environmental Performance},
@@ -19372,9 +18833,10 @@
     author      = {Ryan Henderson},
     title       = {Multidisciplinary Design Optimization of Airframe and Engine for Emissions Reduction},
     address     = {Toronto, ON, Canada},
-    keywords    = {environment, aircraft design, aircraft emissions, optimization, MDO},
+    month       = {January},
     school      = {University of Toronto Institute for Aerospace Studies},
-    year        = {2009}
+    year        = {2009},
+    keywords    = {environment, aircraft design, aircraft emissions, optimization, MDO}
 }
 
 @InProceedings{hendricks2014design,
@@ -19399,10 +18861,14 @@
 @TechReport{Hendricks2018a,
     author      = {Hendricks, Eric S.},
     title       = {A Review of Boundary Layer Ingestion Modeling Approaches for Use in Conceptual Design},
-    keywords    = {aerodynamic stalling, aircraft performance, boundary layer ingestion propulsion},
+    address     = {Cleveland OH},
+    institution = {NASA Glenn Research Center},
     month       = {July},
+    number      = {NASA/TM---2018-219926},
+    type        = {NASA Technical Memorandum},
     url         = {https://ntrs.nasa.gov/search.jsp?R=20180005165},
     year        = {2018},
+    keywords    = {aerodynamic stalling, aircraft performance, boundary layer ingestion propulsion},
     abstract    = {The concept of boundary layer ingestion has been proposed by NASA researchers and other groups for improving the performance of a number of future aircraft concepts. These future aircraft concepts include the STARC-ABL, D8 and N-3X among other examples. While BLI technology appears to be promising for improving the aircraft performance by reducing fuel burn, the benefits and challenges of using this technology are not well understood. As a result, there are a number of e orts ongoing within NASA which are attempting to model BLI and determine its overall bene t. Despite their common goal, there seems to be significant differences in the modeling approaches used in each e ort, with limited communication and collaboration between these groups. The purpose of this report is to document NASA's in-house BLI modeling e orts and their associated methodologies. Furthermore, the report will identify strengths and weaknesses of each methodology, specifically in regards to each
                   method's application in conceptual design.}
 }
@@ -19438,17 +18904,6 @@
     pages       = {1--25},
     publisher   = {AIAA AVIATION Forum},
     year        = {2020}
-}
-
-@TechReport{Hendricks_2018,
-    author      = {Eric S. Hendricks},
-    title       = {A Review of Boundary Layer Ingestion Modeling Approaches for use in Conceptual Design},
-    address     = {Cleveland OH},
-    institution = {NASA Glenn Research Center},
-    month       = {July},
-    number      = {NASA/TM---2018-219926},
-    type        = {NASA Technical Memorandum},
-    year        = {2018}
 }
 
 @InProceedings{hendricks_pointer_pycycle_2017,
@@ -19677,31 +19132,6 @@
     year        = {1977}
 }
 
-@Article{Hicken2008-Parallel-Newton-Krylov,
-    author      = {J. E. Hicken and D. W. Zingg},
-    title       = {Parallel Newton--Krylov Solver for the Euler equations Discretized Using Simultaneous Approximation Terms},
-    doi         = {10.2514/1.34810},
-    journal     = {{AIAA} Journal},
-    month       = {nov},
-    number      = {11},
-    pages       = {2773--2786},
-    volume      = {46},
-    year        = 2008
-}
-
-@Article{Hicken2008a,
-    author      = {Hicken, J. E. and Zingg, D. W.},
-    title       = {Parallel {Newton}-{Krylov} {Solver} for the {Euler} equations {Discretized} {Using} {Simultaneous} {Approximation} {Terms}},
-    doi         = {10.2514/1.34810},
-    issn        = {0001-1452},
-    journal     = {AIAA Journal},
-    month       = {November},
-    number      = {11},
-    pages       = {2773--2786},
-    volume      = {46},
-    year        = {2008}
-}
-
 @InProceedings{Hicken2009a,
     author      = {Hicken, Jason and Zingg, David},
     title       = {Globalization {Strategies} for {Inexact}-{Newton} {Solvers}},
@@ -19742,6 +19172,7 @@
     title       = {A simplified and flexible variant of {GCROT} for solving nonsymmetric linear systems},
     doi         = {10.1137/090754674},
     journal     = {SIAM Journal on Scientific Computing},
+    note        = {(Submitted)},
     number      = {3},
     pages       = {1672--1694},
     publisher   = {SIAM},
@@ -19775,12 +19206,15 @@
 @Article{Hicken:2008:A,
     author      = {Hicken, J. E. and Zingg, D.W.},
     title       = {A Parallel {N}ewton--{K}rylov Solver for the {E}uler Equations Discretized Using Simultaneous Approximation Terms},
+    doi         = {10.2514/1.34810},
+    issn        = {0001-1452},
     journal     = {{AIAA} Journal},
-    keywords    = {aerodynamics, CFD},
+    month       = {nov},
     number      = {11},
     pages       = {2773--2786},
     volume      = {46},
-    year        = {2008}
+    year        = {2008},
+    keywords    = {aerodynamics, CFD}
 }
 
 @PhDThesis{Hicken:2009:A,
@@ -19789,14 +19223,6 @@
     address     = {{T}oronto,~{ON}},
     keywords    = {aerodynamics, optimization},
     school      = {University of Toronto Institute for Aerospace Studies},
-    year        = {2009}
-}
-
-@Article{Hicken:2009:B,
-    author      = {Hicken, J. E. and Zingg, D.W.},
-    title       = {A Simplified and Flexible Variant of {GCROT}},
-    journal     = {{SIAM} Journal on Scientific Computing},
-    note        = {(Submitted)},
     year        = {2009}
 }
 
@@ -20486,8 +19912,13 @@
     author      = {K. F. Hulme and C. L. Bloebaum},
     title       = {A simulation--based comparison of multidisciplinary design optimization solution strategies using {CASCADE}},
     doi         = {10.1007/s001580050083},
+    issn        = {1615-147X},
+    issue       = {1},
     journal     = {Structural and Multidisciplinary Optimization},
+    keyword     = {Computer Science},
+    note        = {10.1007/s001580050083},
     pages       = {17--35},
+    publisher   = {Springer Berlin / Heidelberg},
     volume      = {19},
     year        = {2000}
 }
@@ -20499,21 +19930,6 @@
     doi         = {10.2514/6.2000-4812},
     month       = {September},
     publisher   = {{AIAA}},
-    year        = {2000}
-}
-
-@Article{Hulme:2000,
-    author      = {Hulme, K. F. and Bloebaum, C. L.},
-    title       = {A simulation-based comparison of multidisciplinary design optimization solution strategies using CASCADE},
-    issn        = {1615-147X},
-    issue       = {1},
-    journal     = {Structural and Multidisciplinary Optimization},
-    keyword     = {Computer Science},
-    note        = {10.1007/s001580050083},
-    pages       = {17--35},
-    publisher   = {Springer Berlin / Heidelberg},
-    url         = {http://dx.doi.org/10.1007/s001580050083},
-    volume      = {19},
     year        = {2000}
 }
 
@@ -20931,21 +20347,6 @@
     year        = {2010}
 }
 
-@Article{Ijsselmuiden2010a,
-    author      = {Ijsselmuiden, Samuel T. and Abdalla, Mostafa M. and G{\"u}rdal, Zafer},
-    title       = {Optimization of Variable-Stiffness Panels for Maximum Buckling Load Using Lamination Parameters},
-    doi         = {10.2514/1.42490},
-    issn        = {0001-1452},
-    journal     = {AIAA Journal},
-    month       = {January},
-    number      = {1},
-    pages       = {134--143},
-    publisher   = {American Institute of Aeronautics and Astronautics},
-    url         = {https://doi.org/10.2514/1.42490},
-    volume      = {48},
-    year        = {2010}
-}
-
 @Article{Ilic2014a,
     author      = {Ilic, Aleksandar and Pratas, Frederico and Sousa, Leonel},
     title       = {Cache-aware {Roofline} model: Upgrading the loft},
@@ -21096,22 +20497,13 @@
 @Conference{Iorga2016,
     author      = {Lucian Iorga and Vincent Malmedy and Andrey Polynkin and Francesco Albani},
     title       = {Large-Scale numerical Optimisation for Preliminary Sizing of Aircraft Structures},
+    address     = {Manchester, UK},
     adress      = {Manchester, UK},
     booktitle   = {Aircraft Structural Design Conference - Royal Aeronautical Society},
-    doi         = {10.1016/j.compstruc.2015.02.024},
     month       = {October},
     year        = {2016},
     abstract    = {Preliminary sizing of aircraft structures is an inherently complex and costly exercise. In an industrial environ- ment, this typically implies the early identification of structural dimensions with a good final-design represent- ativeness, leading to a specific class of structural-optimisation problems with very many constraints and design parameters. Further to the inherent complexities of the optimisation-problem formulation and solution, specific conditions for robustness and interoperability with the industrial design processes have to be also considered. This paper aims to introduce recent developments at Airbus for large-scale numerical optimisation of both metal- lic and composite structures, in the form of the Advanced Composite/Metallic Optimisation frameworks. First, the approaches chosen to address the structural-optimisation problem are described. Second, industry-specific siz- ing criteria and associated solutions are reviewed, including the specific
                   requirements for constraints arising from stress criteria for static-stress and fatigue-and-damage-tolerance analyses, as well as from design criteria (like manufacturing ramp rates). Finally, prospects for further academic and applied research are discussed, covering multi-fidelity/multi-scale aspects as well as model parameterisation and loadspace characterisation techniques.}
-}
-
-@InProceedings{Iorga2016a,
-    author      = {Lucian Iorga and Vincent Malmedy and Andrey Polynkin and Francesco Albani},
-    title       = {Large-Scale Numerical Optimisation for Preliminary Sizing of Aircraft Structures},
-    address     = {Manchester, UK},
-    booktitle   = {5th Aircraft Structural Design Conference},
-    month       = {October},
-    year        = {2016}
 }
 
 @InProceedings{Iorga2018a,
@@ -21179,10 +20571,11 @@
     year        = {1996}
 }
 
-@TechReport{IPCC:1999:A,
+@Book{IPCC:1999:A,
     author      = {Joyce E. Penner and David H. Lister and David J. Griggs and David J. Dokken and Mack McFarland},
     title       = {Aviation and the Global Atmosphere},
     institution = {Intergovernmental Panel on Climate Change},
+    publisher   = {Cambridge University Press},
     type        = {Special Report},
     year        = {1999}
 }
@@ -21461,12 +20854,12 @@
     title       = {Structural Topology Optimization for Multiple Load Cases Using a Dynamic Aggregation Technique},
     doi         = {10.1080/03052150902926827},
     journal     = {Engineering Optimization},
-    keywords    = {structures, optimization, topology},
     month       = {December},
     number      = {12},
     pages       = {1103--1118},
     volume      = {41},
-    year        = {2009}
+    year        = {2009},
+    keywords    = {structures, optimization, topology}
 }
 
 @InProceedings{James2010d,
@@ -21546,19 +20939,6 @@
     keywords    = {topology},
     school      = {University of Toronto Institute for Aerospace Studies},
     year        = {2006}
-}
-
-@Article{James:2009:A,
-    author      = {Kai James and Jorn S. Hansen and Joaquim R. R. A. Martins},
-    title       = {Structural Topology Optimization for Multiple Load Cases Using a Dynamic Aggregation Technique},
-    doi         = {10.1080/03052150902926827},
-    journal     = {Engineering Optimization},
-    keywords    = {structures, optimization, topology},
-    month       = {December},
-    number      = {12},
-    pages       = {1103--1118},
-    volume      = {41},
-    year        = {2009}
 }
 
 @InProceedings{Jameson1981a,
@@ -22080,25 +21460,14 @@
     year        = {2009}
 }
 
-@InBook{Jegley,
+@InProceedings{Jegley,
     author      = {Dawn Jegley and Brian Tatting and Zafer Gurdal},
     title       = {Optimization of Elastically Tailored Tow-Placed Plates with Holes},
     booktitle   = {44th AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference},
-    doi         = {doi:10.2514/6.2003-1420},
-    month       = {May},
-    publisher   = {American Institute of Aeronautics and Astronautics},
-    year        = {2003}
-}
-
-@InCollection{Jegley2003a,
-    author      = {Jegley, Dawn and Tatting, Brian and Gurdal, Zafer},
-    title       = {Optimization of Elastically Tailored Tow-Placed Plates with Holes},
-    booktitle   = {Structures, Structural Dynamics, and Materials and Co-located Conferences},
     doi         = {10.2514/6.2003-1420},
-    month       = {April},
+    month       = {May},
     pages       = {--},
     publisher   = {American Institute of Aeronautics and Astronautics},
-    url         = {https://doi.org/10.2514/6.2003-1420},
     year        = {2003}
 }
 
@@ -22109,17 +21478,6 @@
     booktitle   = {Proceedings of the 42nd AIAA Structures, Structural Dynamics and Materials Conference},
     note        = {AIAA 2001-1334},
     year        = {2001}
-}
-
-@TechReport{Jegley:2002,
-    author      = {Jegley, Dawn},
-    title       = {Structural Efficiency of Stitched Composite Panels with Stiffener Crippling},
-    doi         = {10.2514/1.11845},
-    issn        = {0021-8669},
-    journal     = {Journal of Aircraft},
-    pages       = {1273--1280},
-    volume      = {42},
-    year        = {2002}
 }
 
 @Article{Jegley:2005,
@@ -22171,24 +21529,15 @@
     year        = {1995}
 }
 
-@Article{Jeong2005,
+@Article{jeong2005efficient,
     author      = {Shinkyu Jeong and Mitsuhiro Murayama and Kazuomi Yamamoto},
     title       = {Efficient Optimization Design Method Using Kriging Model},
     doi         = {10.2514/1.6386},
     issue       = {2},
     journal     = {Journal of Aircraft},
-    page        = {413--420},
-    volume      = {42},
-    year        = {2005}
-}
-
-@Article{jeong2005efficient,
-    author      = {Shinkyu Jeong and Mitsuhiro Murayama and Kazuomi Yamamoto},
-    title       = {Efficient Optimization Design Method Using Kriging Model},
-    doi         = {10.2514/1.6386},
-    journal     = {Journal of Aircraft},
     month       = {March},
     number      = {2},
+    page        = {413--420},
     pages       = {413--420},
     publisher   = {American Institute of Aeronautics and Astronautics ({AIAA})},
     url         = {https://doi.org/10.2514/1.6386},
@@ -22938,13 +22287,6 @@
     year        = {1910}
 }
 
-@Book{Joyce1999,
-    author      = {Penner, J. E. and Lister, D. H. and Griggs, D. J. and Dokken, D. J. and McFarland, M.},
-    title       = {Aviation and the Global Atmosphere},
-    publisher   = {Cambridge University Press},
-    year        = {1999}
-}
-
 @InProceedings{Jquest:AIAA:2000,
     author      = {J. Quest},
     title       = {ETW - High Quality Test Performance in Cryogenic Environment},
@@ -23366,16 +22708,6 @@
     year        = {2005}
 }
 
-@Article{Karpel_2,
-    author      = {B. Moulin and M. Karpel},
-    title       = {Gust Load Alleviation Using Special Control Surfaces},
-    journal     = {Journal of Aircraft},
-    number      = {1},
-    pages       = {17-25},
-    volume      = {44},
-    year        = {2007}
-}
-
 @MastersThesis{Karush1939a,
     author      = {William Karush},
     title       = {Minima of functions of several variables with inequalities as side constraints},
@@ -23495,6 +22827,7 @@
     doi         = {10.2514/1.C031342},
     journal     = {Journal of Aircraft},
     month       = {09},
+    number      = {5},
     pages       = {1685-1695},
     volume      = {48},
     year        = {2011}
@@ -23647,7 +22980,7 @@
     author      = {Kennedy, J. and Eberhart, R. C.},
     title       = {Particle swarm optimization},
     booktitle   = {Proceedings of the IEEE International Conference on Neural Networks},
-    doi         = {10.1007/978-0-387-30164-8_630},
+    doi         = {10.1109/ICNN.1995.488968},
     pages       = {1942--1948},
     publisher   = {Institute of Electrical and Electronics Engineers},
     volume      = {IV},
@@ -23671,6 +23004,7 @@
     author      = {Kennedy, M. and O'Hagan, A.},
     title       = {Bayesian calibration of computer models (with discussion)},
     journal     = {Journal of the Royal Statistical Society Series B.},
+    number      = {3},
     pages       = {425--464},
     volume      = {63},
     year        = {2001}
@@ -23890,17 +23224,6 @@
     year        = {2015}
 }
 
-@InProceedings{Kennedy2015fk,
-    author      = {Graeme Kennedy},
-    title       = {Large-scale Multi-material Topology Optimization for Additive Manufacturing},
-    booktitle   = {56th {AIAA}/{ASCE}/{AHS}/{ASC} Structures, Structural Dynamics, and Materials Conference},
-    doi         = {10.2514/6.2015-1799},
-    month       = {jan},
-    publisher   = {American Institute of Aeronautics and Astronautics ({AIAA})},
-    url         = {http://dx.doi.org/10.2514/6.2015-1799},
-    year        = 2015
-}
-
 @Article{Kennedy2016,
     author      = {Graeme J. Kennedy},
     title       = {A Full-space Barrier Method for Stress-constrained Discrete Material Design Optimization},
@@ -23941,15 +23264,6 @@
     year        = {2010}
 }
 
-@Article{Kennedy:2011,
-    author      = {Graeme J. Kennedy and Joaquim R. R. A. Martins},
-    title       = {Aerostructural design optimization of composite aircraft with stress and local buckling constraints using an implicit structural parametrization},
-    address     = {Montreal, Quebec},
-    booktitle   = {Proceedings of CASI AERO 2011},
-    month       = {April},
-    year        = {2011}
-}
-
 @Article{Kennedy:2014:dto,
     author      = {Graeme J. Kennedy},
     title       = {Discrete thickness optimization via piecewise constraint penalization},
@@ -23967,6 +23281,7 @@
     booktitle   = {56th AIAA/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference},
     doi         = {10.2514/6.2015-1799},
     month       = {January},
+    publisher   = {American Institute of Aeronautics and Astronautics ({AIAA})},
     year        = {2015}
 }
 
@@ -23980,16 +23295,6 @@
     volume      = {212},
     year        = {2019},
     abstract    = {This paper presents a sequential convex optimization method for minimum compliance design of multimaterial problems. The proposed method uses a multimaterial parametrization based on SIMP or RAMP penalization. At each iteration of the algorithm, a convex subproblem is constructed by forming a nonlinear, convex approximation of the penalized compliance based on a linearization of the stiffness matrix. Subsequent solutions of the convex subproblems form a non-increasing sequence of compliance values. The subproblems are solved using a tailored inexact Newton--Krylov interior point method that leverages relatively inexpensive Hessian-vector products. The algorithm is demonstrated on a series of isotropic and orthotropic multimaterial plane stress design problems.}
-}
-
-@Article{Kennedy_2001,
-    author      = {M.C. Kennedy and A. O'Hagan},
-    title       = {Bayesian Calibration of Computer Models},
-    journal     = {J.R. Statist. Soc. B},
-    number      = {3},
-    pages       = {425-464},
-    volume      = {63},
-    year        = {2001}
 }
 
 @Article{kennel2004kdtree,
@@ -24768,9 +24073,9 @@
     year        = {2006}
 }
 
-@Article{Kirkpatrick1983,
-    author      = {Kirkpatrick, S. and Gelatt, C. D. and Vecchi, M. P.},
-    title       = {Optimization by simulated annealing},
+@Article{Kirkpatrick1983a,
+    author      = {S. Kirkpatrick and C. D. Gelatt and M. P. Vecchi},
+    title       = {Optimization by Simulated Annealing},
     doi         = {10.1126/science.220.4598.671},
     issn        = {1095-9203},
     journal     = {Science},
@@ -24778,17 +24083,6 @@
     number      = {4598},
     pages       = {671--680},
     publisher   = {American Association for the Advancement of Science (AAAS)},
-    volume      = {220},
-    year        = {1983}
-}
-
-@Article{Kirkpatrick1983a,
-    author      = {S. Kirkpatrick and C. D. Gelatt and M. P. Vecchi},
-    title       = {Optimization by Simulated Annealing},
-    doi         = {10.1126/science.220.4598.671},
-    journal     = {Science},
-    number      = {4598},
-    pages       = {671--680},
     volume      = {220},
     year        = {1983}
 }
@@ -24872,18 +24166,6 @@
     pages       = {2237--2243},
     volume      = {57},
     year        = {2019}
-}
-
-@Article{Kiviaho:2018:MELD,
-    author      = {Jan F. Kiviaho and Graeme J. Kennedy},
-    title       = {Efficient and Robust Load and Displacement Transfer Scheme Using Weighted Least Squares},
-    doi         = {10.2514/1.J057318},
-    journal     = {AIAA Journal},
-    keywords    = {meld},
-    number      = {5},
-    pages       = {2237--2243},
-    volume      = {57},
-    year        = 2019
 }
 
 @InProceedings{kiyici2015design,
@@ -25122,22 +24404,22 @@
     author      = {Srinivas Kodiyalam},
     title       = {Evaluation of Methods for Multidisciplinary Design Optimization ({MDO}), Part 1},
     institution = {{NASA}},
-    keywords    = {MDO},
     month       = {September},
-    number      = {CR-2000-210313},
+    number      = {CR-1998-208716},
     type        = {\emph{{NASA} Report}},
-    year        = {1998}
+    year        = {1998},
+    keywords    = {MDO, MDO, comparison}
 }
 
 @TechReport{Kodiyalam2000b,
     author      = {Srinivas Kodiyalam and Charles Yuan},
     title       = {Evaluation of Methods for Multidisciplinary Design Optimization ({MDO}), Part 2},
     institution = {{NASA}},
-    keywords    = {MDO},
     month       = {November},
     number      = {CR-2000-210313},
     type        = {{NASA} Report},
-    year        = {2000}
+    year        = {2000},
+    keywords    = {MDO, MDO, comparison}
 }
 
 @Article{Kodiyalam2001,
@@ -25145,21 +24427,11 @@
     title       = {Multidisciplinary Design Optimization --- Some Formal Methods, Framework Requirements, and Application to Vehicle Design},
     doi         = {10.1504/IJVD.2001.001904},
     journal     = {International Journal of Vehicle Design},
-    pages       = {3--22},
-    volume      = {25},
-    year        = {2001}
-}
-
-@Article{Kodiyalam2001a,
-    author      = {Srinivas Kodiyalam and Jaroslaw Sobieszczanski--Sobieski},
-    title       = {Multidisciplinary design optimisation---some formal methods, framework requirements, and application to vehicle design},
-    doi         = {10.1504/IJVD.2001.001904},
-    journal     = {International Journal of Vehicle Design},
-    keywords    = {MDO},
     number      = {1--2},
     pages       = {3--22},
     volume      = {25},
-    year        = {2001}
+    year        = {2001},
+    keywords    = {MDO}
 }
 
 @TechReport{kodiyalam2001alternate,
@@ -25178,26 +24450,6 @@
     pages       = {434--443},
     volume      = {61},
     year        = {2009}
-}
-
-@TechReport{Kodiyalam:1998:A,
-    author      = {Srinivas Kodiyalam},
-    title       = {Evaluation of Methods for Multidisciplinary Design Optimization ({MDO}), Phase 1},
-    keywords    = {MDO, comparison},
-    month       = {September},
-    number      = {CR-1998-208716},
-    type        = {{NASA} Report},
-    year        = 1998
-}
-
-@TechReport{Kodiyalam:2000:A,
-    author      = {Srinivas Kodiyalam and Charles Yuan},
-    title       = {Evaluation of Methods for Multidisciplinary Design Optimization ({MDO}), Part 2},
-    keywords    = {MDO, comparison},
-    month       = {November},
-    number      = {CR-2000-210313},
-    type        = {{NASA} Report},
-    year        = 2000
 }
 
 @Article{Kodiyalam:2000:BIS,
@@ -25327,21 +24579,10 @@
     year        = {2004}
 }
 
-@Article{Kollerstrom1992,
-    author      = {Kollerstrom, Nick},
-    title       = {Thomas Simpson and `{Newton}'s method of approximation': an enduring myth},
-    doi         = {10.1017/S0007087400029150},
-    journal     = {The British Journal for the History of Science},
-    number      = {3},
-    pages       = {347--354},
-    publisher   = {Cambridge University Press},
-    volume      = {25},
-    year        = {1992}
-}
-
 @Article{Kollerstrom1992a,
     author      = {Kollerstrom, Nick},
     title       = {Thomas Simpson and `Newton's method of approximation': an enduring myth},
+    doi         = {10.1017/S0007087400029150},
     journal     = {The British Journal for the History of Science},
     number      = {3},
     pages       = {347--354},
@@ -25458,18 +24699,12 @@
     year        = {2006}
 }
 
-@TechReport{Kota2007,
-    author      = {Sridhar Kota and Russell Osborn and Gregory Ervin and Dragan Maric and Peter Flick and Donald Paul},
-    title       = {Mission Adaptive Compliant Wing---Design, Fabrication and Flight Test},
-    institution = {NATO Research and Technology Organization},
-    number      = {RTO-MP-AVT-168},
-    year        = {2007}
-}
-
 @InProceedings{Kota2009a,
     author      = {Kota, Sridhar and Osborn, Russell and Ervin, Gregory and Maric, Dragan and Flick, Peter and Paul, Donald},
     title       = {Mission Adaptive Compliant Wing--Design, Fabrication and Flight Test},
     booktitle   = {RTO Applied Vehicle Technology Panel (AVT) Symposium},
+    institution = {NATO Research and Technology Organization},
+    number      = {RTO-MP-AVT-168},
     year        = {2009}
 }
 
@@ -25529,22 +24764,13 @@
                   which is large but also comparatively slow. While external memory such as hard disk drives or remote memory components in a distributed computing environment represent the lower end of any common hierarchical memory design, this paper focuses on optimization techniques for enhancing cache performance.}
 }
 
-@Article{Koyuncuoglu2022,
-    author      = {Koyuncuoglu, Heyecan U and He, Ping},
-    title       = {Simultaneous wing shape and actuator parameter optimization using the adjoint method},
-    journal     = {Aerospace Science and Technology},
-    pages       = {107876},
-    publisher   = {Elsevier},
-    volume      = {130},
-    year        = {2022}
-}
-
 @Article{Koyuncuoglu2022a,
     author      = {Koyuncuoglu, Heyecan U. and He, Ping},
     title       = {Simultaneous wing shape and actuator parameter optimization using the adjoint method},
     doi         = {10.1016/j.ast.2022.107876},
     issn        = {12709638},
     journal     = {Aerospace Science and Technology},
+    pages       = {107876},
     publisher   = {Elsevier Masson SAS},
     volume      = {130},
     year        = {2022}
@@ -25613,15 +24839,6 @@
     type        = {{DFVLR-FB 88-28}},
     url         = {http://www.opengrey.eu/item/display/10068/147127},
     year        = {1988}
-}
-
-@Article{Kraft1994,
-    author      = {D. Kraft},
-    title       = {Algorithm 733: {TOMP-Fortran} Modules for Optimal Control Calculations},
-    journal     = {{ACM} Transactions on Mathematical Software},
-    pages       = {262--281},
-    volume      = {20},
-    year        = {1994}
 }
 
 @Article{Kraft1994a,
@@ -25828,7 +25045,9 @@
 @Misc{Kroo,
     author      = {Ilan M. Kroo},
     title       = {Aircraft Design: Synthesis and Analysis},
-    url         = {http://adg.stanford.edu/aa241/AircraftDesign.html}
+    publisher   = {Desktop Aeronautics, Stanford},
+    url         = {http://adg.stanford.edu/aa241/AircraftDesign.html},
+    year        = {2006}
 }
 
 @InProceedings{Kroo1983a,
@@ -25857,14 +25076,6 @@
     pages       = {561--565},
     volume      = {23},
     year        = {1986}
-}
-
-@InProceedings{Kroo1994,
-    author      = {Ilan M. Kroo and Steve Altus and Robert D. Braun and Peter Gage and Ian P. Sobieski},
-    title       = {Multidisciplinary Optimization Methods for Aircraft Preliminary Design},
-    booktitle   = {5$^{th}$ AIAA/USAF/NASA/ISSMO Symposium on Multidisciplinary Analysis and Optimization},
-    note        = {AIAA Paper 94-4325},
-    year        = {1994}
 }
 
 @InCollection{Kroo1997,
@@ -25945,17 +25156,6 @@
     year        = 1994
 }
 
-@InCollection{Kroo:1997:A,
-    author      = {Ilan M. Kroo},
-    title       = {{MDO} for Large-Scale Design},
-    booktitle   = {Multidisciplinary Design Optimization: State-of-the-Art},
-    editor      = {N. M. Alexandrov and M. Y. Hussaini},
-    keywords    = {MDO},
-    pages       = {22--44},
-    publisher   = {{SIAM}},
-    year        = {1997}
-}
-
 @TechReport{Kroo:2002,
     author      = {Ilan M. Kroo and Richard Tracy and James Chase and Peter Sturdza},
     title       = {Natural Laminar Flow for Quiet and Efficient Supersonic Aircraft},
@@ -25963,13 +25163,6 @@
     number      = {2002-0146},
     type        = {\emph{{AIAA} Paper}},
     year        = {2002}
-}
-
-@Misc{Kroo:2009,
-    author      = {Kroo, I.},
-    title       = {Aircraft Design: Synthesis and Analysis},
-    publisher   = {Desktop Aeronautics, Stanford},
-    year        = {2006}
 }
 
 @url{Kroo:AA241X,
@@ -26588,17 +25781,6 @@
     year        = {1950}
 }
 
-@Article{Landmann2011,
-    author      = {Landmann, B and Montagnac, M},
-    title       = {A highly automated parallel Chimera method for overset grids based on the implicit hole cutting technique},
-    journal     = {International Journal for Numerical Methods in Fluids},
-    number      = {6},
-    pages       = {778--804},
-    publisher   = {Wiley Online Library},
-    volume      = {66},
-    year        = {2011}
-}
-
 @Article{landmann2011ihc,
     author      = {Landmann, B and Montagnac, M},
     title       = {A highly automated parallel {Chimera} method for overset grids based on the implicit hole cutting technique},
@@ -27036,24 +26218,13 @@
     year        = {2015}
 }
 
-@Article{LeDigabel2011,
-    author      = {{Le Digabel}, S{\'{e}}bastien},
-    title       = {Algorithm 909: {NOMAD}: Nonlinear Optimization with the {MADS} Algorithm},
-    doi         = {10.1145/1916461.1916468},
-    issn        = {00983500},
-    journal     = {ACM Transactions on Mathematical Software},
-    month       = {February},
-    number      = {4},
-    pages       = {44:1--44:15},
-    volume      = {37},
-    year        = {2011}
-}
-
 @Article{LeDigabel2011a,
     author      = {S. {Le~Digabel}},
     title       = {Algorithm 909: {NOMAD}: Nonlinear optimization with the {MADS} algorithm},
     doi         = {10.1145/1916461.1916468},
+    issn        = {00983500},
     journal     = {{ACM} Transactions on Mathematical Software},
+    month       = {February},
     number      = {4},
     pages       = {1--15},
     volume      = {37},
@@ -27114,15 +26285,6 @@
 
 @Article{Lee2001,
     author      = {Joosung J. Lee and Stephen P. Lukachko and A. Waitz and Andreas Schafer},
-    title       = {Historical and Future Trends in Aircraft Performance, Cost, and Emissions},
-    journal     = {Annual Review of Energy and the Environment},
-    pages       = {167--200},
-    volume      = {26},
-    year        = {2001}
-}
-
-@Article{Lee2001a,
-    author      = {Lee, Joosung J. and Lukachko, Stephen P. and Waitz, Ian A. and Schafer, Andreas},
     title       = {Historical and Future Trends in Aircraft Performance, Cost, and Emissions},
     doi         = {10.1146/annurev.energy.26.1.167},
     issn        = {1056-3466},
@@ -27427,16 +26589,6 @@
     year        = {2007}
 }
 
-@Article{Lee:2007:AIAA,
-    author      = {Tae Hee Lee},
-    title       = {Adjoint Method for Design Sensitivity Analysis of Multiple Eigenvalues and Associated Eigenvectors},
-    journal     = {AIAA Journal},
-    number      = {8},
-    pages       = {1998-2004},
-    volume      = {45},
-    year        = {2007}
-}
-
 @InProceedings{Lefebvre2017a,
     author      = {Thierry Lefebvre and Nathalie Bartoli and Sylvain Dubreuil and Marco Panzeri and Riccardo Lombardi and Roberto D'Ippolito and Pierluigi Della Vecchia and Fabrizio Nicolosi and Pier Davide Ciampa},
     title       = {Methodological enhancements in {MDO} process investigated in the {AGILE} European project},
@@ -27451,22 +26603,11 @@
     author      = {T. Lefebvre and N. Bartoli and S. Dubreuil and M. Panzeri and R. Lombardi and P. Della Vecchia and L. Stingo and F. Nicolosi and A. De Marco and P.D. Ciampa and K. Anisimov and A. Savelyev and A. Mirzoyan and A. Isyanov},
     title       = {Enhancing optimization capabilities using the {AGILE} collaborative {MDO} framework with application to wing and nacelle design},
     doi         = {10.1016/j.paerosci.2020.100649},
-    journal     = {Progress in Aerospace Sciences},
-    month       = {November},
-    pages       = {100649},
-    publisher   = {Elsevier {BV}},
-    volume      = {119},
-    year        = {2020}
-}
-
-@Article{Lefebvre2020a,
-    author      = {Lefebvre, T. and Bartoli, N. and Dubreuil, S. and Panzeri, M. and Lombardi, R. and Della Vecchia, P. and Stingo, L. and Nicolosi, F. and De Marco, A. and Ciampa, P. D. and Anisimov, K. and Savelyev, A. and Mirzoyan, A. and Isyanov, A.},
-    title       = {Enhancing optimization capabilities using the {AGILE} collaborative {MDO} framework with application to wing and nacelle design},
-    doi         = {10.1016/j.paerosci.2020.100649},
     issn        = {0376-0421},
     journal     = {Progress in Aerospace Sciences},
     month       = {November},
     pages       = {100649},
+    publisher   = {Elsevier {BV}},
     volume      = {119},
     year        = {2020}
 }
@@ -27888,6 +27029,7 @@
     title       = {Geometric Analysis of Collaborative Optimization},
     doi         = {10.1007/s00158-007-0127-1},
     journal     = {Structural and Multidisciplinary Optimization},
+    number      = {4},
     pages       = {301--313},
     volume      = {35},
     year        = {2008}
@@ -27924,33 +27066,20 @@
     year        = {2012}
 }
 
-@Article{Li2013,
-    author      = {Li, Jing and Gao, Zhenghong and Huang, Jiangtao and Zhao, Ke},
-    title       = {Aerodynamic design optimization of nacelle/pylon position on an aircraft},
-    date        = {2013/08/01/},
-    doi         = {https://doi.org/10.1016/j.cja.2013.04.052},
-    isbn        = {1000-9361},
-    journal     = {Chinese Journal of Aeronautics},
-    keywords    = {Delaunay graph mapping; Free form deformation (FFD); Kriging model; Navier--Stokes equations; Particle swarm optimization (PSO); Space-shape},
-    number      = {4},
-    pages       = {850--857},
-    url         = {https://www.sciencedirect.com/science/article/pii/S1000936113001039},
-    volume      = {26},
-    year        = {2013},
-    abstract    = {The arbitrary space-shape free form deformation (FFD) method developed in this paper is based on non-uniform rational B-splines (NURBS) basis function and used for the integral parameterization of nacelle-pylon geometry. The multi-block structured grid deformation technique is established by Delaunay graph mapping method. The optimization objects of aerodynamic characteristics are evaluated by solving Navier--Stokes equations on the basis of multi-block structured grid. The advanced particle swarm optimization (PSO) is utilized as search algorithm, which combines the Kriging model as surrogate model during optimization. The optimization system is used for optimizing the nacelle location of DLR-F6 wing-body-pylon-nacelle. The results indicate that the aerodynamic interference between the parts is significantly reduced. The optimization design system established in this paper has extensive applications and engineering value.}
-}
-
 @Article{Li2013850,
     author      = {Jing Li and Zhenghong Gao and Jiangtao Huang and Ke Zhao},
     title       = {Aerodynamic design optimization of nacelle/pylon position on an aircraft},
+    date        = {2013/08/01/},
     doi         = {10.1016/j.cja.2013.04.052},
+    isbn        = {1000-9361},
     issn        = {1000-9361},
     journal     = {Chinese Journal of Aeronautics},
-    keywords    = {Delaunay graph mapping, Free form deformation (FFD), Kriging model, Navier--Stokes equations, Particle swarm optimization (PSO), Space-shape},
     number      = {4},
     pages       = {850--857},
     volume      = {26},
-    year        = {2013}
+    year        = {2013},
+    keywords    = {Delaunay graph mapping, Free form deformation (FFD), Kriging model, Navier--Stokes equations, Particle swarm optimization (PSO), Space-shape},
+    abstract    = {The arbitrary space-shape free form deformation (FFD) method developed in this paper is based on non-uniform rational B-splines (NURBS) basis function and used for the integral parameterization of nacelle-pylon geometry. The multi-block structured grid deformation technique is established by Delaunay graph mapping method. The optimization objects of aerodynamic characteristics are evaluated by solving Navier--Stokes equations on the basis of multi-block structured grid. The advanced particle swarm optimization (PSO) is utilized as search algorithm, which combines the Kriging model as surrogate model during optimization. The optimization system is used for optimizing the nacelle location of DLR-F6 wing-body-pylon-nacelle. The results indicate that the aerodynamic interference between the parts is significantly reduced. The optimization design system established in this paper has extensive applications and engineering value.}
 }
 
 @InProceedings{Li2014,
@@ -28360,17 +27489,6 @@
     pages       = {110-140},
     volume      = {29},
     year        = 2003
-}
-
-@Article{Li:2008:A,
-    author      = {Xiang Li and Weiji Li and Chang'an Liu},
-    title       = {Geometric analysis of collaborative optimization},
-    journal     = {Structural and Multidisciplinary Optimization},
-    number      = {4},
-    pages       = {301--313},
-    url         = {http://www.springerlink.com/content/9u41gj74nq584526},
-    volume      = {35},
-    year        = {2008}
 }
 
 @InProceedings{Li_2018_CVPR,
@@ -29468,6 +28586,9 @@
 @Book{Logg2012,
     author      = {Logg, Anders and Mardal, Kent-Andre and Wells, Garth},
     title       = {Automated solution of differential equations by the finite element method: The {FEniCS} book},
+    doi         = {10.1007/978-3-642-23099-8},
+    editor      = {Anders Logg and Kent-Andre Mardal and Garth N. Wells},
+    isbn        = {978-3-642-23098-1},
     publisher   = {Springer Science \& Business Media},
     volume      = {84},
     year        = {2012}
@@ -30824,13 +29945,6 @@
     year        = {1999}
 }
 
-@PhDThesis{Manning:Large-scale,
-    author      = {V.M. Manning},
-    title       = {Large-scale Design of Supersonic Aircraft via Collaborative Optimization},
-    school      = {Stanford University},
-    year        = {1999}
-}
-
 @InProceedings{Manoha2015a,
     author      = {Eric Manoha and Bastien Caruelle},
     title       = {Summary of the {LAGOON} Solutions from the Benchmark problems for Airframe Noise Computations-{III} Workshop},
@@ -31304,12 +30418,12 @@
     title       = {High-Fidelity Aerostructural Design Optimization of a Supersonic Business Jet},
     doi         = {10.2514/1.11478},
     journal     = {Journal of Aircraft},
-    keywords    = {aerostructures, MDO, SSBJ, supersonic},
     month       = {May},
     number      = {3},
     pages       = {523--530},
     volume      = {41},
-    year        = {2004}
+    year        = {2004},
+    keywords    = {aerostructures, MDO, SSBJ, supersonic}
 }
 
 @InProceedings{Martins2004b,
@@ -31621,17 +30735,6 @@
     abstract    = {This paper is written to honor Raphael T. Haftka's seminal contributions to multidisciplinary design optimization. We focus on those contributions that directly impacted our research, namely: the adjoint method for computing derivatives, wing aerostructural design optimization, and architectures for multidisciplinary design optimization. For each of these topics, we describe Haftka's contributions, how they impacted our research, and examples of what they enabled us to do. The overarching theme of the contributions and developments described in this paper is the efficient computation of derivatives, which, together with gradient-based optimizers, enables the optimization with respect to large numbers of design variables, even when using costly high-fidelity models.}
 }
 
-@Article{Martins2021b,
-    author      = {Joaquim R. R. A. Martins and Graeme Kennedy},
-    title       = {Enabling Large-scale Multidisciplinary Design Optimization through Adjoint Sensitivity Analysis},
-    doi         = {10.1007/s00158-021-03067-y},
-    journal     = {Structural and Multidisciplinary Optimization},
-    month       = {October},
-    pages       = {2959--2974},
-    volume      = {64},
-    year        = {2021}
-}
-
 @Article{Martins2021c,
     author      = {Joaquim R. R. A. Martins},
     title       = {Computer Algorithms Make For Best Design},
@@ -31684,19 +30787,6 @@
     year        = {2024},
     abstract    = {Component intersections are a persistent challenge in aerodynamic design with the drag of a full configuration that is typically larger than that of its individual components. To remedy this, designers create fairings and fillets between the component surfaces to reduce this interference drag. These additions require iterative design and costly analyses to perfect, but aerodynamic shape optimization can find a better design quicker than traditional processes. For designs involving intersecting components, special handling of deformations is needed to preserve mesh quality within aerodynamic shape optimization. In this work, we present a method that uses inverse distance warping to deform a fillet between two components for the minimum drag design that retains mesh quality. We show that this method is tractable within an aerodynamic shape optimization process and results in lower drag designs than those optimized without changing the intersection region. This method
                   enables better aircraft designs through more detailed aerodynamic shape optimization.}
-}
-
-@Article{Martins:2004:HFA,
-    author      = {Joaquim R. R. A. Martins and Juan J. Alonso and James J. Reuther},
-    title       = {High-Fidelity Aerostructural Design Optimization of a Supersonic Business Jet},
-    doi         = {10.2514/1.11478},
-    journal     = {Journal of Aircraft},
-    keywords    = {aerostructures, MDO, SSBJ, supersonic},
-    month       = {May},
-    number      = {3},
-    pages       = {523--530},
-    volume      = {41},
-    year        = {2004}
 }
 
 @Book{MartinsAD,
@@ -31822,33 +30912,9 @@
     pages       = {1575--1589},
     publisher   = {American Institute of Aeronautics and Astronautics ({AIAA})},
     volume      = {55},
-    year        = {2017}
-}
-
-@Article{Masters2017a,
-    author      = {Masters, D. A. and Taylor, N. J. and Rendall, T. C. S. and Allen, C. B. and Poole, D. J.},
-    title       = {Geometric Comparison of Aerofoil Shape Parameterization Methods},
-    doi         = {10.2514/1.J054943},
-    journal     = {AIAA Journal},
-    number      = {5},
-    pages       = {1575--1589},
-    volume      = {55},
     year        = {2017},
     abstract    = { A comprehensive review of aerofoil shape parameterization methods that can be used for aerodynamic shape optimization is presented. Seven parameterization methods are considered for a range of design variables: class--shape transformations; B-splines; Hicks--Henne bump functions; a radial basis function domain element approach; B{\`e}zier surfaces; a singular-value decomposition modal extraction method; and the parameterized sections method. Because of the large range of variables involved, the most effective way to implement each method is first investigated. Their performances are then analyzed by considering the geometric shape recovery of over 2000 aerofoils using a range of design variables, testing the efficiency of design space coverage with respect to a given tolerance. It is shown that, for all the methods, between 20 and 25 design variables are needed to cover the full design space to within a geometric tolerance, with the singular-value decomposition
                   method doing this most efficiently. A set of transonic aerofoil case studies are also presented, with geometric error and convergence of the resulting aerodynamic properties explored. These results show a strong relationship between geometric error and aerodynamic convergence and demonstrate that between 38 and 66 design variables may be needed to ensure aerodynamic convergence to within one drag and one lift count. }
-}
-
-@Article{Masters2017b,
-    author      = {Masters, D. A. and Taylor, N. J. and Rendall, T. C. S. and Allen, C. B.},
-    title       = {Multilevel Subdivision Parameterization Scheme for Aerodynamic Shape Optimization},
-    doi         = {10.2514/1.j055785},
-    journal     = {AIAA Journal},
-    month       = oct,
-    number      = {10},
-    pages       = {3288--3303},
-    publisher   = {American Institute of Aeronautics and Astronautics},
-    volume      = {55},
-    year        = {2017}
 }
 
 @Article{masters2017multilevel,
@@ -31856,9 +30922,11 @@
     title       = {Multilevel Subdivision Parameterization Scheme for Aerodynamic Shape Optimization},
     doi         = {10.2514/1.J055785},
     journal     = {AIAA Journal},
-    month       = {August},
-    pages       = {1--16},
+    month       = {October},
+    number      = {10},
+    pages       = {3288--3303},
     publisher   = {AIAA},
+    volume      = {55},
     year        = {2017}
 }
 
@@ -31873,31 +30941,20 @@
     year        = {1963}
 }
 
-@Article{Matos2022,
-    author      = {N. M. B. Matos and A. C. Marta},
-    title       = {Concurrent trajectory optimization and aircraft design for the {A}ir {C}argo {C}hallenge competition},
-    doi         = {10.3390/aerospace9070378},
-    journal     = {Aerospace},
-    keywords    = {Multidisciplinary design optimization, Multi-objective optimization, Aerostructural design, Battery discharge model, Collocation method, Optimal control},
-    month       = jul,
-    number      = {7},
-    pages       = {378},
-    url         = {https://mdo.tecnico.ulisboa.pt/wp-content/uploads/publications_JournalArticle_Matos_2022_Aerospace.pdf, Full-text PDF https://www.mdpi.com/2226-4310/9/7/378},
-    volume      = {9},
-    year        = {2022},
-    abstract    = {A coupled aerostructural aircraft design and trajectory optimization framework is developed for the Air Cargo Challenge competition to maximize the expected score based on cargo carried, altitude achieved and distance traveled. Its modular architecture makes it easily adaptable to any problem where the performance depends not only on the design of the aircraft but also on its flight trajectory. It is based on OpenAeroStruct, an aerostructural solver that uses analytic derivatives for efficient gradient-based optimization. A trajectory optimization module using a collocation method is coupled with the option of using b-splines to increase computational efficiency together with an experimentally-based power decay model that accurately determines the aircraft propulsive response to control input depending on the battery discharge level. The optimization problem totaled 206 variables and 283 constraints and was solved in less than 7 h on a standard computer with 12\%
-                  reduction when using b-splines for trajectory control variables. The results revealed the need to consider the multi-objective total score to account for the different score components and highlighted the importance of the payload level and chosen trajectory. The wing area should be increased within allowable limits to maximize payload capacity, climb to maximum target height should be the focus of the first 60 s of flight and full throttle should be avoided in cruise to reduce losses and extend flight distance. The framework proved to be a valuable tool for students to easily obtain guidelines for both the model aircraft design and control to maximize the competition score.}
-}
-
 @Article{Matos2022a,
     author      = {Matos, Nuno M. B. and Marta, Andre C.},
     title       = {Concurrent Trajectory Optimization and Aircraft Design for the Air Cargo Challenge Competition},
     doi         = {10.3390/aerospace9070378},
     issn        = {2226-4310},
     journal     = {Aerospace},
+    month       = jul,
     number      = {7},
+    pages       = {378},
     volume      = {9},
-    year        = {2022}
+    year        = {2022},
+    keywords    = {Multidisciplinary design optimization, Multi-objective optimization, Aerostructural design, Battery discharge model, Collocation method, Optimal control},
+    abstract    = {A coupled aerostructural aircraft design and trajectory optimization framework is developed for the Air Cargo Challenge competition to maximize the expected score based on cargo carried, altitude achieved and distance traveled. Its modular architecture makes it easily adaptable to any problem where the performance depends not only on the design of the aircraft but also on its flight trajectory. It is based on OpenAeroStruct, an aerostructural solver that uses analytic derivatives for efficient gradient-based optimization. A trajectory optimization module using a collocation method is coupled with the option of using b-splines to increase computational efficiency together with an experimentally-based power decay model that accurately determines the aircraft propulsive response to control input depending on the battery discharge level. The optimization problem totaled 206 variables and 283 constraints and was solved in less than 7 h on a standard computer with 12\%
+                  reduction when using b-splines for trajectory control variables. The results revealed the need to consider the multi-objective total score to account for the different score components and highlighted the importance of the payload level and chosen trajectory. The wing area should be increased within allowable limits to maximize payload capacity, climb to maximum target height should be the focus of the first 60 s of flight and full throttle should be avoided in cruise to reduce losses and extend flight distance. The framework proved to be a valuable tool for students to easily obtain guidelines for both the model aircraft design and control to maximize the competition score.}
 }
 
 @InProceedings{Mattiasson,
@@ -31910,13 +30967,6 @@
 }
 
 @Book{Mattingly,
-    author      = {Jack D. Mattingly},
-    title       = {Elements of Gas Turbine Propulsion},
-    publisher   = {McGraw--Hill},
-    year        = {1996}
-}
-
-@Book{Mattingly1996,
     author      = {Jack D. Mattingly},
     title       = {Elements of Gas Turbine Propulsion},
     publisher   = {McGraw--Hill},
@@ -32400,20 +31450,6 @@
     year        = {2002}
 }
 
-@Article{McMullen2006ys,
-    author      = {M.S. McMullen and A. Jameson},
-    title       = {The computational efficiency of non-linear frequency domain methods},
-    doi         = {10.1016/j.jcp.2005.07.021},
-    journal     = {Journal of Computational Physics},
-    month       = {mar},
-    number      = {2},
-    pages       = {637--661},
-    publisher   = {Elsevier {BV}},
-    url         = {http://dx.doi.org/10.1016/j.jcp.2005.07.021},
-    volume      = {212},
-    year        = 2006
-}
-
 @InProceedings{McMullen2019a,
     author      = {Matthew McMullen and Stimit Shah and Nischint Rajmohan},
     title       = {Methodology for a Robust Interactive Boundary Layer Solver},
@@ -32446,9 +31482,12 @@
 @Article{McMullen:2006:CEN,
     author      = {M.S. McMullen and A. Jameson},
     title       = {The Computational Efficiency of Non-Linear Frequency Domain Methods},
+    doi         = {10.1016/j.jcp.2005.07.021},
     journal     = {Journal of Computational Physics},
+    month       = {mar},
     number      = {2},
     pages       = {637--661},
+    publisher   = {Elsevier {BV}},
     volume      = {212},
     year        = {2006}
 }
@@ -33349,14 +32388,8 @@
     address     = {Ottawa, Canada},
     month       = {October},
     number      = {RTO MP-36},
-    year        = {1999}
-}
-
-@Book{Monner2000a,
-    author      = {Monner, HP and Sachau, D and Breitbach, E},
-    title       = {Design aspects of the elastic trailing edge for an adaptive wing},
     publisher   = {Defense Technical Information Center},
-    year        = {2000}
+    year        = {1999}
 }
 
 @InProceedings{Monteiro2023a,
@@ -33799,7 +32832,8 @@
     pages       = {939--945},
     publisher   = {Wiley Online Library},
     volume      = {47},
-    year        = {2005}
+    year        = {2005},
+    keywords    = {AD, Tapenade, comparison}
 }
 
 @InProceedings{Mueller2018,
@@ -34253,6 +33287,7 @@
     howpublished= {\url{https://turbmodels.larc.nasa.gov}},
     note        = {Accessed: 2019-03-27},
     originalyear= {2019-02-13},
+    url         = {https://turbmodels.larc.nasa.gov},
     year        = {2019}
 }
 
@@ -34670,13 +33705,6 @@
     year        = {2017}
 }
 
-@TechReport{Nepair2003,
-    author      = {Norman, P. D. and Lister, D. H. and Lecht, M. and Madden, P. and Park, K. and Penanhoat, O. and Plaisance, C. and Renger, K.},
-    title       = {Development of the technical basis for a New Emissions Parameter covering the whole aircraft operation},
-    institution = {European Community---Competitive and Sustainable Growth Programme},
-    year        = {2003}
-}
-
 @Article{Newman-III:1999:AAA,
     author      = {James C. {Newman III} and Arthur C. {Taylor III} and Richard W. Barnwell and Perry A. Newman and Gene J.--W. Hou},
     title       = {Overview of Sensitivity Analysis and Shape Optimization for Complex Aerodynamic Configurations},
@@ -34695,22 +33723,6 @@
     year        = {1992}
 }
 
-@TechReport{Newman:1998,
-    author      = {Newman, James C. and Anderson, W. K. and Whitfield, D., L.},
-    title       = {Multidisciplinary Sensitivity Derivatives Using Complex Variables},
-    institution = {Computational Fluid Dynamics Laboratory},
-    number      = {{MSSU}-{COE}-{ERC}-98-08},
-    year        = {1998}
-}
-
-@TechReport{Newman:1998:MSD,
-    author      = {{Newman III}, James C. and Anderson, W. K. and Whitfield, D., L.},
-    title       = {Multidisciplinary Sensitivity Derivatives Using Complex Variables},
-    institution = {Computational Fluid Dynamics Laboratory},
-    number      = {{MSSU}-{COE}-{ERC}-98-08},
-    year        = {1998}
-}
-
 @Article{Newman:2003:SSI,
     author      = {James C. {Newman III} and David L. Whitfield and W. Kyle Anderson},
     title       = {Step-Size Independent Approach for Multidisciplinary Sensitivity Analysis},
@@ -34727,6 +33739,7 @@
     title       = {Multidisciplinary Sensitivity Derivatives Using Complex Variables},
     institution = {Computational Fluid Dynamics Laboratory},
     month       = {Jul},
+    number      = {{MSSU}-{COE}-{ERC}-98-08},
     type        = {{MSSU-COE-ERC}-98-08},
     year        = {1998}
 }
@@ -35715,15 +34728,6 @@
     year        = {2017}
 }
 
-@InProceedings{ordaz2017mitigation,
-    author      = {Ordaz, Irian and Rallabhandi, Sriram K and Nielsen, Eric J and Diskin, Boris},
-    title       = {Mitigation of Engine Inlet Distortion through Adjoint-Based Design},
-    booktitle   = {35th AIAA Applied Aerodynamics Conference},
-    note        = {AIAA-2017-3410},
-    pages       = {3410},
-    year        = {2017}
-}
-
 @InProceedings{Orkwis1990a,
     author      = {Orkwis, Paul and Mcrae, D.},
     title       = {A {Newton}'s method solver for the {Navier}-{Stokes} equations},
@@ -36215,15 +35219,6 @@
     year        = {2017}
 }
 
-@InProceedings{Palar2017pck,
-    author      = {Palar, Pramudita Satria and Shimoyama, Koji},
-    title       = {Polynomial-chaos-kriging-assisted efficient global optimization},
-    booktitle   = {2017 IEEE Symposium Series on Computational Intelligence (SSCI)},
-    doi         = {10.1109/SSCI.2017.8280831},
-    pages       = {1-8},
-    year        = {2017}
-}
-
 @Article{Pan2018,
     author      = {Shaowu Pan and Karthik Duraisamy},
     title       = {Long-Time Predictive Modeling of Nonlinear Dynamical Systems Using Neural Networks},
@@ -36628,19 +35623,6 @@
     year        = {2012}
 }
 
-@Article{ParrEtAl2012,
-    author      = {J. M. Parr and A. J. Keane and A. I.J. Forrester and C. M.E. Holden},
-    title       = {Infill sampling criteria for surrogate-based optimization with constraint handling},
-    doi         = {10.1080/0305215X.2011.637556},
-    journal     = {Engineering Optimization},
-    number      = {10},
-    pages       = {1147-1166},
-    publisher   = {Taylor & Francis},
-    url         = {https://doi.org/10.1080/0305215X.2011.637556},
-    volume      = {44},
-    year        = {2012}
-}
-
 @InProceedings{Parsopoulos:2002,
     author      = {Parsopoulos, K.E. and Vrahatis, M.N.},
     title       = {Particle Swarm Optimization Method for Constrained Optimization Problems},
@@ -36702,16 +35684,6 @@
 }
 
 @Article{Patil2001,
-    author      = {Patil,M. J. and Hodges, D. H. and Cesnik, C. E. S.},
-    title       = {Limit-Cycle Oscillations in High-Aspect-Ratio Wings},
-    journal     = {Journal of Fluids and Structures},
-    number      = {1},
-    pages       = {107--132},
-    volume      = {15},
-    year        = {2001}
-}
-
-@Article{Patil2001a,
     author      = {Patil,M. J. and Hodges, D. H. and Cesnik, C. E. S.},
     title       = {Limit-Cycle Oscillations in High-Aspect-Ratio Wings},
     journal     = {Journal of Fluids and Structures},
@@ -36984,17 +35956,6 @@
     year        = {2021}
 }
 
-@Article{Pendleton2000,
-    author      = {Edmund W. Pendleton and Denis Bessette and Peter B. Field and Gerald D. Miller and Kenneth E. Griffin},
-    title       = {Active Aeroelastic Wing Flight Research Program: Technical Program and Model Analytical Development},
-    journal     = {Journal of Aircraft},
-    keywords    = {morphing},
-    number      = {4},
-    pages       = {554--561},
-    volume      = {37},
-    year        = {2000}
-}
-
 @Article{Pennings2015,
     author      = {Pennings, P. C. and Westerweel, J. and van Terwisga, T. J. C.},
     title       = {Flow field measurement around vortex cavitation},
@@ -37045,37 +36006,6 @@
     author      = {Ruben E. Perez},
     title       = {A Multidisciplinary Optimization Framework for Flight Dynamics and Control Integration in Aircraft Design},
     school      = {University of Toronto},
-    year        = {2007}
-}
-
-@PhDThesis{Perez2007a,
-    author      = {R. E. Perez},
-    title       = {A Multidisciplinary Optimization Framework for Flight Dynamics and Control Integration in Aircraft Design},
-    school      = {University of Toronto},
-    year        = {2007}
-}
-
-@Article{Perez2007b,
-    author      = {Perez, R. and Behdinan, K.},
-    title       = {Particle Swarm Approach for Structural Design Optimization},
-    journal     = {International Journal of Computer and Structures},
-    month       = {October},
-    number      = {19-20},
-    pages       = {1579-1588},
-    volume      = {85},
-    year        = {2007}
-}
-
-@InBook{Perez2007c,
-    author      = {Perez, R. and Behdinan, K.},
-    title       = {Swarm Intelligence: Focus on Ant and Particle Swarm Optimization},
-    chapter     = {Particle Swarm Optimization in Structural Design},
-    edition     = {1st},
-    editor      = {Chan, F.T.S. and Tiwari, M.K.},
-    month       = {September},
-    note        = {ISBN 978-3-902613-09-7},
-    pages       = {373-394},
-    publisher   = {International Journal of Advanced Robotic Systems},
     year        = {2007}
 }
 
@@ -37131,22 +36061,13 @@
     year        = {2016}
 }
 
-@Article{Perez:2006:A,
-    author      = {R. E. Perez and H. H.T. Liu and K. Behdinan},
-    title       = {Multidisciplinary Optimization Framework for Control-Configuration Integration in Aircraft Conceptual Design},
-    journal     = {Journal of Aircraft},
-    number      = {6},
-    pages       = {1937--1948},
-    volume      = {43},
-    year        = {2006}
-}
-
 @Article{Perez:2007:A,
     author      = {R.E. Perez and K. Behdinan},
     title       = {Particle swarm approach for structural design optimization},
-    doi         = {DOI: 10.1016/j.compstruc.2006.10.013},
+    doi         = {10.1016/j.compstruc.2006.10.013},
     issn        = {0045-7949},
     journal     = {Computers \& Structures},
+    month       = {October},
     number      = {19--20},
     pages       = {1579--1588},
     url         = {http://www.sciencedirect.com/science/article/B6V28-4N6FNSG-1/2/b4b147ab24a26fd8a2f5a8b010cde4fc},
@@ -37160,18 +36081,6 @@
     address     = {Toronto, ON, Canada},
     booktitle   = {CASI AERO 2007 Conference, Aircraft Design and Development Symposium},
     month       = {April},
-    year        = {2007}
-}
-
-@InBook{Perez_ant:2007,
-    author      = {Perez, R. and Behdinan, K.},
-    title       = {Swarm Intelligence: Focus on Ant and Particle Swarm Optimization},
-    chapter     = {Particle Swarm Optimization in Structural Design},
-    edition     = {1st},
-    month       = {September},
-    number      = {ISBN 978-3-902613-09-7},
-    pages       = {373-394},
-    publisher   = {International Journal of Advanced Robotic Systems},
     year        = {2007}
 }
 
@@ -37330,17 +36239,6 @@
     author      = {Peterson, P.},
     title       = {{F2PY}: A Tool for Connecting Fortran and Python Programs},
     doi         = {10.1504/IJCSE.2009.029165},
-    journal     = {International Journal of Computational Science and Engineering},
-    number      = {4},
-    pages       = {296--305},
-    volume      = {4},
-    year        = {2009}
-}
-
-@Article{Peterson:2009,
-    author      = {Peterson, P.},
-    title       = {{F2PY}: A tool for connecting {F}ortran and {P}ython programs.},
-    doi         = {10.1504/ijcse.2009.029165},
     journal     = {International Journal of Computational Science and Engineering},
     number      = {4},
     pages       = {296--305},
@@ -37630,13 +36528,6 @@
     booktitle   = {45th American Institute of Aeronautics and Astronautics Aerospace Sciences Meeting and Exhibit, Reno, NV, January},
     pages       = {8--11},
     year        = {2007}
-}
-
-@PhDThesis{PLOE2018,
-    author      = {Plo{\'{e}}, Patrick},
-    title       = {Surrogate-based optimization of hydrofoil shapes using RANS simulations},
-    school      = {{\'{E}}cole Centrale de Nantes},
-    year        = {2018}
 }
 
 @PhDThesis{ploe2019,
@@ -38109,19 +37000,14 @@
     author      = {R. E. Perez and K. Behdinan},
     title       = {Swarm Intelligence: Focus on Ant and Particle Swarm Optimization},
     chapter     = {Particle Swarm Optimization in Structural Design},
+    edition     = {1st},
     editor      = {Felix T. S. Chan and Manoj Kumar Tiwari},
+    month       = {September},
+    note        = {ISBN 978-3-902613-09-7},
+    number      = {ISBN 978-3-902613-09-7},
     pages       = {532 - 553},
     publisher   = {Itech Education and Publishing, Vienna, Austria},
     year        = {2007}
-}
-
-@InProceedings{PSO_SB:2005,
-    author      = {Sobieszczanski-Sobieski, J. and Venter, G.},
-    title       = {A Parallel Particle Swarm Optimization Algorithm Accelerated by Asynchronous Evaluations},
-    address     = {Rio de Janeiro},
-    booktitle   = {6th World Congresses of Structural and Multidisciplinary Optimization},
-    month       = {may 30 - jun 3},
-    year        = {2005}
 }
 
 @Article{Puente2018,
@@ -38391,16 +37277,6 @@
     year        = {2017}
 }
 
-@Article{Raissi2018a,
-    author      = {Raissi, M. and Perdikaris, P. and Karniadakis, G.},
-    title       = {Physics-Informed Neural Networks: A Deep Learning Framework for Solving Forward and Inverse Problems Involving Nonlinear Partial Differential Equations},
-    journal     = {Journal of Computational Physics},
-    number      = {1},
-    pages       = {686--707},
-    volume      = {378},
-    year        = {2018}
-}
-
 @Article{Raissi2018b,
     author      = {Raissi, M.},
     title       = {Deep Hidden Physics Models: Deep Learning of Nonlinear Partial Differential Equations},
@@ -38417,6 +37293,7 @@
     doi         = {10.1016/j.jcp.2018.10.045},
     journal     = {Journal of Computational Physics},
     month       = {February},
+    number      = {1},
     pages       = {686--707},
     publisher   = {Elsevier {BV}},
     volume      = {378},
@@ -38827,17 +37704,6 @@
     year        = {1996}
 }
 
-@Article{Reed2003,
-    author      = {H. Reed and W. Saric and E. White},
-    title       = {Stability and Transition of three-dimensional Boundary Layers},
-    doi         = {10.1146/annurev.fluid.35.101101.161045},
-    journal     = {Annual Review of Fluid Mechanics},
-    month       = {January},
-    pages       = {413-440},
-    volume      = {35},
-    year        = {2003}
-}
-
 @TechReport{Reed2003a,
     author      = {Reed, John A. and Turner, Mark G. and Norris, Andrew and Veres, Joseph P.},
     title       = {Towards an Automated Full-Turbofan Engine Numerical Simulation},
@@ -38991,15 +37857,6 @@
                   results demonstrate better convergence properties of the present algorithm when compared to the fully implicit method.}
 }
 
-@Article{renaud,
-    author      = {Gano, S. and Renaud, J. and Sanders, B.},
-    title       = {Hybrid Variable Fidelity Optimization by Using a Kriging-Based Scaling Function},
-    journal     = {AIAA Journal},
-    pages       = {2422--2433},
-    volume      = {43},
-    year        = 2005
-}
-
 @Article{Renaud1993,
     author      = {J.E. Renaud and G. A. Gabriele},
     title       = {Improved Coordination in Nonhierarchic System Optimization},
@@ -39020,7 +37877,8 @@
     number      = {1},
     pages       = {198--205},
     volume      = {32},
-    year        = {1994}
+    year        = {1994},
+    keywords    = {MDO, CSSO}
 }
 
 @InCollection{Renaud:1993:A,
@@ -39032,27 +37890,6 @@
     publisher   = {ASME},
     volume      = {2},
     year        = {1993}
-}
-
-@Article{Renaud:1993:ICN,
-    author      = {J. E. Renaud and G. A. Gabriele},
-    title       = {Improved Coordination in Nonhierarchic System Optimization},
-    journal     = {{AIAA} Journal},
-    number      = {12},
-    pages       = {2367--2373},
-    volume      = {31},
-    year        = {1993}
-}
-
-@Article{Renaud:1994:A,
-    author      = {J. E. Renaud and G. A. Gabriele},
-    title       = {Approximation in Nonhierarchic System Optimization Approximation in Nonhierarchic System Optimization Approximation in Nonhierarchic System Optimization},
-    journal     = {{AIAA} Journal},
-    keywords    = {MDO, CSSO},
-    number      = {1},
-    pages       = {198--205},
-    volume      = {32},
-    year        = {1994}
 }
 
 @Article{Rendall2008,
@@ -39719,7 +38556,10 @@
 @InProceedings{Robinson2006,
     author      = {T. D. Robinson and K. E. Willcox and M. S. Eldred and R. Haimes},
     title       = {Multifidelity Optimization for Variable Complexity Design},
+    address     = {Portsmouth, VA},
     booktitle   = {Proceedings of the 11$^th$ {AIAA}/{ISSMO} Multidisciplinary Analysis and Optimization Conference},
+    month       = {September},
+    note        = {AIAA 2006-7114},
     year        = {2006}
 }
 
@@ -39759,16 +38599,6 @@
     year        = {2021},
     abstract    = {As the size of aero-engines has increased in recent years, the need for slimmer and shorter nacelles has become more pressing. A more aggressive design space must therefore be explored for nacelle designs which are expected to perform worse in the off design conditions such as spillage than current nacelle designs. In this work, a novel design space has been explored through the use of an optimisation method which evaluated nacelle aerodynamic performance based on computational fluid dynamics simulations. A multi-objective optimisation was undertaken where cruise drag, drag rise Mach number, spillage drag and two metrics based on the pressure distribution of the nacelle were optimised. Comparable optimal designs were picked from the Pareto sets of optimisations carried out at different nacelle lengths and radial offsets and some key outcomes established from their aerodynamics and geometries. It was determined that a reduction in the length of the nacelle from 3.8
                   highlight radii to 3.1 radii resulted in a significantly worse aerodynamic performance which included an increase in peak surface isentropic Mach number at cruise of 0.1 and up to four times as much spillage drag. It was however also established from the optimisation results that as the required drag rise Mach number was decreased the overall performance of short nacelles improved significantly.}
-}
-
-@InProceedings{Robinson:2006:MOV,
-    author      = {T. D. Robinson and K. E. Willcox and M. S. Eldred and R. Haimes},
-    title       = {Multifidelity Optimization for Variable-Complexity Design},
-    address     = {Portsmouth, VA},
-    booktitle   = {Proceedings of the 11th AIAA/ISSMO Multidisciplinary Analysis and Optimization Conference},
-    month       = {September},
-    note        = {AIAA 2006-7114},
-    year        = 2006
 }
 
 @Article{Robitaille2015,
@@ -39924,24 +38754,16 @@
     year        = {2004}
 }
 
-@InProceedings{Rodriguez2007a,
-    author      = {David L. Rodriguez},
-    title       = {Propulsion/Airframe Integration and Optimization on a Supersonic Business Jet},
-    address     = {Reno, NV},
-    booktitle   = {Proceedings of the 45th AIAA Aerospace Sciences Meeting and Exhibit},
-    keywords    = {CFD, propulsion, optimization},
-    month       = {January},
-    note        = {AIAA 2007-1048},
-    year        = {2007}
-}
-
 @InProceedings{Rodriguez2007b,
     author      = {David Rodriguez},
     title       = {Propulsion/Airframe Integration and Optimization on a Supersonic Business Jet},
+    address     = {Reno, NV},
     booktitle   = {Proceedings of the 45th AIAA Aerospace Sciences Meeting and Exhibit},
     doi         = {10.2514/6.2007-1048},
-    keywords    = {Aerion},
-    year        = {2007}
+    month       = {January},
+    note        = {AIAA 2007-1048},
+    year        = {2007},
+    keywords    = {Aerion, CFD, propulsion, optimization}
 }
 
 @Article{Rodriguez2009a,
@@ -40389,12 +39211,6 @@
     organization= {NASA}
 }
 
-@url{Rumseydatea,
-    author      = {Rumsey, Christoper},
-    title       = {{NASA} Turbulence Modeling Resource},
-    url         = {https://turbmodels.larc.nasa.gov}
-}
-
 @Article{Runarsson2000,
     author      = {T. P. {Runarsson} and {Xin Yao}},
     title       = {Stochastic ranking for constrained evolutionary optimization},
@@ -40639,18 +39455,6 @@
     publisher   = {ACM},
     url         = {http://doi.acm.org/10.1145/1163641.1163643},
     volume      = {32},
-    year        = {2006}
-}
-
-@Article{Sala:2006:OOF,
-    author      = {Marzio Sala},
-    title       = {An Object-Oriented Framework for the Development of Scalable Parallel Multilevel Preconditioners},
-    journal     = {ACM Transactions on Mathematical Software},
-    month       = {September},
-    number      = {3},
-    pages       = {396--416},
-    url         = {http://doi.acm.org/10.1145/1163641.1163643},
-    volume      = {32},
     year        = {2006},
     abstract    = {We present the design of a high-performance, object oriented framework that enables the rapid development and usage of efficient, scalable and portable implementations of multilevel preconditioners for distributed sparse real matrices, in both serial and (massively) parallel environments. The main feature of the proposed framework is the use of several programming paradigms for the diffierent implementation layers, with a strong emphasis on object oriented classes and operator overloading for the top layer, and optimized FORTRAN and C code for the layers underneath. We describe an implementation of the proposed framework, based on the ML library, the algebraic multilevel preconditioning package of Trilinos, which supports state-of-the-art parallel smoothed aggregation methods, and can be used to define general algebraic and geometric multilevel and multigrid preconditioners and solvers. The paper demonstrates that one can take advantage of object-oriented programming
                   and operator overloading to obtain intuitive, easy-to-read and easy-to-develop codes, that are at the same time efficient and scalable. Several numerical experiments, obtained on serial and parallel computers, show that the overhead required by the object-oriented layer is very modest, therefore allowing developers to focus on the new algorithms they are developing and testing, rather than on the implementation details.}
@@ -40820,11 +39624,12 @@
     doi         = {10.1146/annurev.fluid.35.101101.161045},
     issn        = {0066-4189},
     journal     = {Annual Review of Fluid Mechanics},
-    keywords    = {nonlinear,rotating disk,roughness,saturation,secondary instabilities},
+    month       = {January},
     number      = {1},
     pages       = {413--440},
     volume      = {35},
-    year        = {2003}
+    year        = {2003},
+    keywords    = {nonlinear,rotating disk,roughness,saturation,secondary instabilities}
 }
 
 @TechReport{Saric2008,
@@ -40998,13 +39803,6 @@
 
 @Book{schaufele,
     author      = {R. D. Schaufele},
-    title       = {The Elements of Aircraft Preliminary Design},
-    publisher   = {Aries Publications},
-    year        = {2007}
-}
-
-@Book{Schaufele:2007,
-    author      = {Schaufele, R. D.},
     title       = {The Elements of Aircraft Preliminary Design},
     address     = {Santa Ana, California},
     publisher   = {Aries Publications},
@@ -41211,17 +40009,6 @@
     year        = {1984}
 }
 
-@Article{Schmit:1978:A,
-    author      = {L. A. {Schmit~Jr.} and R. K. Ramanathan},
-    title       = {Multilevel approach to minimum weight design including buckling constraints},
-    journal     = {AIAA Journal},
-    month       = {February},
-    number      = {2},
-    pages       = {97--104},
-    volume      = {16},
-    year        = {1978}
-}
-
 @TechReport{Schmitt1979,
     author      = {Schmitt, V. and Charpin, F.},
     title       = {Pressure distributions on the {ONERA}-{M6}-wing at transonic {Mach} numbers},
@@ -41377,6 +40164,7 @@
     author      = {Schuster, David M and Liu, Danny D and Huttsell, Lawerence J},
     title       = {Computational aeroelasticity: success, progress, challenge},
     journal     = {Journal of Aircraft},
+    month       = {October},
     number      = {5},
     pages       = {843--856},
     volume      = {40},
@@ -41387,17 +40175,6 @@
     author      = {D.M. Schuster and D. D. Liu and L. J. Huttsell},
     journal     = {Journal of Aircraft},
     number      = {5},
-    volume      = {40},
-    year        = {2003}
-}
-
-@Article{Schuster:2003:JA,
-    author      = {David M. Schuster,D. D. Liu and Lawrence J. Huttsell},
-    title       = {Computational Aeroelasticity: Success, Progress, Challenge},
-    journal     = {Journal of Aircraft},
-    month       = {October},
-    number      = {5},
-    pages       = {843-856},
     volume      = {40},
     year        = {2003}
 }
@@ -41703,25 +40480,15 @@
     year        = {2021}
 }
 
-@Article{Sekar2019,
-    author      = {Vinothkumar Sekar and Mengqi Zhang and Chang Shu and Boo Cheong Khoo},
+@Article{sekar2019a,
+    author      = {V. Sekar and M. Zhang and C. Shu and B. Khoo},
     title       = {Inverse Design of Airfoil Using a Deep Convolutional Neural Network},
     doi         = {10.2514/1.j057894},
-    journal     = {{AIAA} Journal},
+    journal     = {AIAA Journal},
     month       = {March},
     number      = {3},
     pages       = {993--1003},
     publisher   = {American Institute of Aeronautics and Astronautics ({AIAA})},
-    volume      = {57},
-    year        = {2019}
-}
-
-@Article{sekar2019a,
-    author      = {V. Sekar and M. Zhang and C. Shu and B. Khoo},
-    title       = {Inverse Design of Airfoil Using a Deep Convolutional Neural Network},
-    journal     = {AIAA Journal},
-    number      = {3},
-    pages       = {993--1003},
     volume      = {57},
     year        = {2019}
 }
@@ -41813,25 +40580,17 @@
     year        = {2025}
 }
 
-@InCollection{Sellar1996,
+@InProceedings{Sellar1996,
     author      = {Sellar, R. and Batill, S. and Renaud, J.},
     title       = {Response surface based, concurrent subspace optimization for multidisciplinary system design},
+    address     = {{R}eno,~{NV}},
     booktitle   = {34th Aerospace Sciences Meeting and Exhibit},
     doi         = {10.2514/6.1996-714},
     month       = {January},
+    note        = {{AIAA} 1996-0714},
     publisher   = {American Institute of Aeronautics and Astronautics},
     series      = {Aerospace Sciences Meetings},
     year        = {1996}
-}
-
-@InProceedings{Sellar:1996:RSB,
-    author      = {R. S. Sellar and S. M. Batill and J. E. Renaud},
-    title       = {Response Surface Based, Concurrent Subspace Optimization for Multidisciplinary System Design},
-    address     = {{R}eno,~{NV}},
-    booktitle   = {Proceedings of the 34th AIAA Aerospace Sciences Meeting and Exhibit},
-    month       = {January},
-    note        = {{AIAA} 1996-0714},
-    year        = 1996
 }
 
 @InProceedings{Sen2014,
@@ -42577,10 +41336,12 @@
     doi         = {10.1016/j.cma.2018.12.026},
     issn        = {0045-7825},
     journal     = {Computer Methods in Applied Mechanics and Engineering},
-    keywords    = {Kriging, Filter, Expensive constrained design optimization, Metamodel based design optimization, Sequential infill sampling},
+    month       = {April},
     pages       = {782--805},
+    publisher   = {Elsevier {BV}},
     volume      = {347},
     year        = {2019},
+    keywords    = {Kriging, Filter, Expensive constrained design optimization, Metamodel based design optimization, Sequential infill sampling},
     abstract    = {To reduce the computational cost of solving engineering design optimization problems with both expensive objective and constraints, a novel filter-based adaptive Kriging method notated as FLT-AKM is proposed in this paper. In FLT-AKM, a probability of constrained improvement (PCI) criterion is developed based on the notion of filter to sequentially generate new samples for updating Kriging metamodels of objective and constraints. At each iteration, an infill sample point is allocated at the position where the PCI is maximized to achieve potential improvement in optimality and feasibility. And the Kriging metamodels are consecutively updated by the newly-added infill sample points, which leads the FLT-AKM search to rapidly converge to the global optimum. The performance of the proposed FLT-AKM method is tested on a number of numerical benchmark problems via comparing with several widely-used metamodel-based constrained optimization methods. The comparison results
                   indicate that FLT-AKM generally outperforms the competitors in terms of global convergence and efficiency performance. Finally, FLT-AKM is successfully applied to an all-electric GEO satellite MDO problem. The optimization results show that FLT-AKM is able to find a better feasible design with fewer computational budgets compared with our previous study, which demonstrates the effectiveness and practicality of the proposed FLT-AKM method for solving real-world expensive black-box engineering design optimization problems.}
 }
@@ -42604,18 +41365,6 @@
     number      = {1},
     pages       = {118--},
     volume      = {58},
-    year        = {2019}
-}
-
-@Article{Shi2019c,
-    author      = {Renhe Shi and Li Liu and Teng Long and Yufei Wu and Yifan Tang},
-    title       = {Filter-based adaptive Kriging method for black-box optimization problems with expensive objective and constraints},
-    doi         = {10.1016/j.cma.2018.12.026},
-    journal     = {Computer Methods in Applied Mechanics and Engineering},
-    month       = {April},
-    pages       = {782--805},
-    publisher   = {Elsevier {BV}},
-    volume      = {347},
     year        = {2019}
 }
 
@@ -42689,15 +41438,6 @@
     number      = {11},
     pages       = {1281--1292},
     volume      = {219},
-    year        = {2005}
-}
-
-@Article{Shin:2005:A,
-    author      = {Moon--Kyun Shin and Gyung--Jin Park},
-    title       = {Multidisciplinary design optimization based on independent subspaces},
-    journal     = {International Journal for Numerical Methods in Engineering},
-    pages       = {599--617},
-    volume      = {64},
     year        = {2005}
 }
 
@@ -42878,7 +41618,7 @@
     title       = {The Influence of a Tip Propeller's Vertical Offset on a Trailing Wing with Fixed Lift},
     address     = {Orlando, FL},
     booktitle   = {AIAA SciTech Forum},
-    doi         = {10.2514/6.2026-1010},
+    doi         = {10.2514/6.2026-2296},
     keywords    = {MACH},
     month       = {January},
     year        = {2026},
@@ -42933,16 +41673,6 @@
     pages       = {129--150},
     publisher   = {Springer-Verlag},
     volume      = {17},
-    year        = {2001}
-}
-
-@Article{Simpson2001b,
-    author      = {Simpson, Timothy W and Mauery, Timothy M and Korte, John J and Mistree, Farrokh},
-    title       = {Kriging models for global approximation in simulation-based multidisciplinary design optimization},
-    journal     = {AIAA Journal},
-    number      = {12},
-    pages       = {2233--2241},
-    volume      = {39},
     year        = {2001}
 }
 
@@ -43017,17 +41747,6 @@
     number      = {4},
     volume      = {63},
     year        = {2018}
-}
-
-@Article{Sinnige2018,
-    author      = {Sinnige, Tomas and van Arnhem, Nando and Stokkermans, Tom C. A. and Eitelberg, Georg and Veldhuis, Leo L. M.},
-    title       = {Wingtip-Mounted Propellers: Aerodynamic Analysis of Interaction Effects and Comparison with Conventional Layout},
-    doi         = {10.2514/1.C034978},
-    journal     = {Journal of Aircraft},
-    number      = {1},
-    pages       = {295--312},
-    volume      = {56},
-    year        = {2019}
 }
 
 @Article{Sinnige2018b,
@@ -43115,15 +41834,6 @@
     pages       = {933--962},
     volume      = {62},
     year        = {2018}
-}
-
-@TechReport{Skoog:1951:FlexWing,
-    author      = {Richard B. Skoog and Harvey H. Brown},
-    title       = {A method for the determination of the spanwise load distribution of a flexible wing at subsonic speeds},
-    month       = {March},
-    number      = {TN 2222},
-    type        = {NACA Report},
-    year        = {1951}
 }
 
 @Article{Skujins2014a,
@@ -43292,16 +42002,6 @@
     year        = {2019}
 }
 
-@Article{Smith2019b,
-    author      = {S.M. Smith and J.A. Venning and B.W. Pearce and Y.L. Young and P.A. Brandner},
-    title       = {The Influence of Fluid-structure Interaction on Cloud Cavitation about a Flexible Hydrofoil (Part 2)},
-    doi         = {10.1017/jfm.2020.323},
-    journal     = {Journal of Fluid Mechanics},
-    pages       = {A28},
-    volume      = {897},
-    year        = {2019}
-}
-
 @TechReport{Smith2020,
     author      = {Benjamin Smith and Timothy Brooks and Mark Leader and Ting Wei Chin and Graeme Kennedy and Joaquim R. R. A. Martins and Carlos E. S. Cesnik},
     title       = {Passive Aeroelastic Tailoring},
@@ -43356,7 +42056,7 @@
 @Article{smith_1993,
     author      = {Smith, Leroy H.},
     title       = {Wake Ingestion Propulsion Benefit},
-    doi         = {10.2514/6.1991-2007},
+    doi         = {10.2514/3.11487},
     journal     = {Journal of Propulsion and Power},
     month       = {February},
     number      = {1},
@@ -43369,7 +42069,6 @@
     author      = {S. A. Smolyak},
     title       = {Quadrature and interpolation formulas for tensor products of certain classes of functions},
     booktitle   = {Proceedings of the USSR Academy of Sciences},
-    doi         = {10.3103/S1066369X10030084},
     number      = {5},
     pages       = {1042--1045},
     volume      = {148},
@@ -43412,27 +42111,6 @@
     abstract    = {Explicit mathematical functions are used for 2D curve definition for airfoil design. Flowphe-nomena-oriented parameters control geometrical and aerodynamic properties. Airfoil shapes are blended with known analytical section formulae. Generic variable camber wing sections and multicomponent airfoils are generated. For 3D wing definition all parameters are made functions of a third spanwise coordinate. High lift systems are defined kinematically by modelled track gear geometries, translation and rotation in 3D space. Examples for parameter variation in numerical optimization, mechanical adaptation and for unsteady coupling of flow and configuration are presented.}
 }
 
-@InCollection{Sobieczky1999a,
-    author      = {Helmut Sobieczky},
-    title       = {Parametric Airfoils and Wings},
-    booktitle   = {Notes on Numerical Fluid Mechanics ({NNFM})},
-    doi         = {10.1007/978-3-322-89952-1_4},
-    pages       = {71--87},
-    publisher   = {Vieweg+Teubner Verlag},
-    year        = {1999}
-}
-
-@TechReport{Sobieski1988,
-    author      = {Jaroslaw Sobieszczanski--Sobieski},
-    title       = {Optimization by Decomposition: A Step from Hierarchic to Non-Hierarchic Systems},
-    institution = {NASA},
-    keywords    = {MDO},
-    number      = {CP-3031},
-    stuff       = {Proceedings of the 2nd {NASA}/{USAF} Symposium on Recent Advances in Multidiscipliary Analysis and Optimization},
-    type        = {\emph{{NASA} Technical Report}},
-    year        = {1988}
-}
-
 @Article{Sobieski1990a,
     author      = {Jaroslaw Sobieszczanski--Sobieski},
     title       = {Sensitivity of Complex, Internally Coupled Systems},
@@ -43441,18 +42119,6 @@
     keywords    = {sensitivities, MDO},
     number      = {1},
     pages       = {153--160},
-    volume      = {28},
-    year        = {1990}
-}
-
-@Article{Sobieski1990b,
-    author      = {Jaroslaw Sobieszczanski--Sobieski},
-    title       = {Higher-Order Sensitivity Analysis of Complex, Coupled Systems},
-    doi         = {10.2514/3.10458},
-    journal     = {{AIAA} Journal},
-    month       = {April},
-    number      = {4},
-    pages       = {756--758},
     volume      = {28},
     year        = {1990}
 }
@@ -43469,28 +42135,6 @@
     year        = {1997}
 }
 
-@TechReport{Sobieski1998,
-    author      = {Jaroslaw Sobieszczanski--Sobieski and Jeremy S. Agte and Robert R. Sandusky, Jr.},
-    title       = {Bi-Level Integrated System Synthesis ({BLISS})},
-    doi         = {10.1.1.35.4601},
-    institution = {{NASA}},
-    number      = {98-4916},
-    type        = {\emph{{AIAA} Paper}},
-    year        = {1998}
-}
-
-@Article{Sobieski2000BLISS,
-    author      = {Jaroslaw Sobieszczanski--Sobieski and Jeremy S. Agte and Robert R. Sandusky},
-    title       = {Bi-Level Integrated System Synthesis},
-    doi         = {10.2514/2.937},
-    journal     = {{AIAA} Journal},
-    month       = {January},
-    number      = {1},
-    pages       = {164--172},
-    volume      = {38},
-    year        = {2000}
-}
-
 @Article{Sobieski2003,
     author      = {Jaroslaw Sobieszczanski--Sobieski and Troy D. Altus and Matthew Phillips and Robert R. Sandusky},
     title       = {Bi-Level Integrated System Synthesis for Concurrent and Distributed Processing},
@@ -43500,29 +42144,19 @@
     number      = {10},
     pages       = {1996--2003},
     volume      = {41},
-    year        = {2003}
-}
-
-@Article{Sobieski2003a,
-    author      = {Jaroslaw Sobieszczanski--Sobieski and Troy D. Altus and Matthew Phillips and Robert Sandusky},
-    title       = {Bilevel integrated system synthesis for concurrent and distributed processing},
-    doi         = {10.2514/2.1889},
-    journal     = {AIAA Journal},
-    keywords    = {MDO, BLISS},
-    number      = {10},
-    pages       = {1996--2003},
-    volume      = {41},
-    year        = {2003}
+    year        = {2003},
+    keywords    = {MDO, BLISS}
 }
 
 @TechReport{Sobieski:1988:OBD,
     author      = {Jaroslaw Sobieszczanski--Sobieski},
     title       = {Optimization by Decomposition: A Step from Hierarchic to Non-Hierarchic Systems},
-    keywords    = {MDO, CSSO},
+    institution = {NASA},
     number      = {CP-3031},
     stuff       = {Proceedings of the 2nd {NASA}/{USAF} Symposium on Recent Advances in Multidiscipliary Analysis and Optimization},
     type        = {\emph{{NASA} Technical Report}},
-    year        = 1988
+    year        = 1988,
+    keywords    = {MDO, CSSO, MDO}
 }
 
 @Article{Sobieski:1990:A,
@@ -43550,48 +42184,34 @@
 @TechReport{Sobieski:1998:BLI,
     author      = {Jaroslaw Sobieszczanski--Sobieski and Jeremy S. Agte and Robert R. {Sandusky~Jr.}},
     title       = {Bi-Level Integrated System Synthesis ({BLISS})},
+    institution = {{NASA}},
     number      = {98-4916},
     type        = {\emph{{AIAA} Paper}},
     year        = 1998
-}
-
-@TechReport{Sobieski:1998:BLI2,
-    author      = {Jaroslaw Sobieszczanski--Sobieski},
-    title       = {Bi-Level Integrated System Synthesis ({BLISS})},
-    keywords    = {MDO, BLISS},
-    number      = {1998-208715},
-    type        = {NASA/TM},
-    url         = {citeseer.nj.nec.com/299078.htm},
-    year        = {1998}
-}
-
-@TechReport{Sobieski:1998:BLI3,
-    author      = {Jaroslaw Sobieszczanski-Sobieski},
-    title       = {Bi-Level Integrated System Synthesis ({BLISS})},
-    number      = {1998-208715},
-    type        = {NASA/TM},
-    url         = {citeseer.nj.nec.com/299078.htm},
-    year        = {1998}
 }
 
 @TechReport{Sobieski:1998:BLISS,
     author      = {J. Sobieszczanski--Sobieski and J. S. Agte and R. R. Sandusky},
     title       = {Bi-Level Integrated System Synthesis ({BLISS})},
     institution = {NASA},
-    keywords    = {MDO, BLISS},
     number      = {TM-1998-208715},
-    year        = {1998}
+    type        = {NASA/TM},
+    url         = {citeseer.nj.nec.com/299078.htm},
+    year        = {1998},
+    keywords    = {MDO, BLISS}
 }
 
 @Article{Sobieski:2000:A,
     author      = {Jaroslaw Sobieszczanski--Sobieski and Jeremy S. Agte and Robert R. Sandusky},
     title       = {Bilevel Integrated System Synthesis},
+    doi         = {10.2514/2.937},
     journal     = {{AIAA} Journal},
-    keywords    = {MDO, BLISS},
+    month       = {January},
     number      = {1},
     pages       = {164--172},
     volume      = {38},
-    year        = {2000}
+    year        = {2000},
+    keywords    = {MDO, BLISS}
 }
 
 @Article{Sobieski:2000:COU,
@@ -43644,23 +42264,15 @@
 @Article{Sobieszczanski-Sobieski:1990:AAA,
     author      = {Jaroslaw Sobieszczanski-Sobieski},
     title       = {Higher Order Sensitivity Analysis of Complex, Coupled Systems},
+    doi         = {10.2514/3.10458},
     journal     = {{AIAA} Journal},
-    keywords    = {sensitivities},
+    month       = {April},
     note        = {Technical Note},
     number      = {4},
     pages       = {756--758},
     volume      = {28},
-    year        = {1990}
-}
-
-@Article{Sobieszczanski-Sobieski:1992:A,
-    author      = {C. L. Bloebaum; P. Hajela; J. Sobieszczanski-Sobieski},
-    title       = {NON-HIERARCHIC SYSTEM DECOMPOSITION IN STRUCTURAL OPTIMIZATION},
-    journal     = {Engineering Optimization},
-    number      = {3},
-    pages       = {171 -- 186},
-    volume      = {19},
-    year        = {1992}
+    year        = {1990},
+    keywords    = {sensitivities}
 }
 
 @Article{Sobol1967,
@@ -43668,22 +42280,10 @@
     title       = {On the distribution of points in a cube and the approximate evaluation of integrals},
     doi         = {10.1016/0041-5553(67)90144-9},
     journal     = {USSR Computational Mathematics and Mathematical Physics},
-    number      = {4},
-    pages       = {86--112},
-    volume      = {7},
-    year        = {1967}
-}
-
-@Article{sobol1967distribution,
-    author      = {I.M Sobol{\textquotesingle}},
-    title       = {On the distribution of points in a cube and the approximate evaluation of integrals},
-    doi         = {10.1016/0041-5553(67)90144-9},
-    journal     = {{USSR} Computational Mathematics and Mathematical Physics},
     month       = {January},
     number      = {4},
     pages       = {86--112},
     publisher   = {Elsevier {BV}},
-    url         = {https://doi.org/10.1016/0041-5553(67)90144-9},
     volume      = {7},
     year        = {1967}
 }
@@ -43719,19 +42319,6 @@
     year        = {1981}
 }
 
-@Article{Song2007,
-    author      = {Wenbin Song and Andy J. Keane},
-    title       = {Surrogate-Based Aerodynamic Shape Optimization of a Civil Aircraft Engine Nacelle},
-    doi         = {10.2514/1.30015},
-    journal     = {{AIAA} Journal},
-    month       = {October},
-    number      = {10},
-    pages       = {2565--2574},
-    publisher   = {American Institute of Aeronautics and Astronautics ({AIAA})},
-    volume      = {45},
-    year        = {2007}
-}
-
 @Article{Song2007a,
     author      = {Song, Wenbin and Keane, Andy J.},
     title       = {Surrogate-Based Aerodynamic Shape Optimization of a Civil Aircraft Engine Nacelle},
@@ -43741,6 +42328,7 @@
     month       = {October},
     number      = {10},
     pages       = {2565--2574},
+    publisher   = {American Institute of Aeronautics and Astronautics ({AIAA})},
     volume      = {45},
     year        = {2007}
 }
@@ -43792,29 +42380,19 @@
     abstract    = {A transport equation for the turbulent viscosity is assembled, using empiricism and arguments of dimensional analysis, Galilean invariance, and selective dependence on the molecular viscosity. It has similarities with the models of Nee and Kovaszany, Secundov et al., and Baldwin and Barth. The equation includes a non-viscous destruction term that depends on the distance of the wall.}
 }
 
-@Article{spalart2000,
-    author      = {Spalart, Philippe R},
-    title       = {Strategies for turbulence modelling and simulations},
-    journal     = {International Journal of Heat and Fluid Flow},
-    number      = {3},
-    pages       = {252--263},
-    publisher   = {Elsevier},
-    volume      = {21},
-    year        = {2000}
-}
-
 @Article{Spalart2000a,
     author      = {Spalart, P. R},
     title       = {Strategies for turbulence modelling and simulations},
     doi         = {10.1016/S0142-727X(00)00007-2},
     issn        = {0142-727X},
     journal     = {International Journal of Heat and Fluid Flow},
-    keywords    = {Aerodynamics, Simulation, Turbulence},
     month       = {June},
     number      = {3},
     pages       = {252--263},
+    publisher   = {Elsevier},
     volume      = {21},
     year        = {2000},
+    keywords    = {Aerodynamics, Simulation, Turbulence},
     abstract    = {This is an attempt to clarify and size up the many levels possible for the numerical prediction of a turbulent flow, the target being a complete airplane, turbine, or car. Not all the author's opinions will be accepted, but his hope is to stimulate reflection, discussion, and planning. These levels still range from a solution of the steady Reynolds-Averaged Navier--Stokes (RANS) equations to a Direct Numerical Simulation, with Large-Eddy Simulation in between. However recent years have added intermediate strategies, dubbed ``VLES'', ``URANS'' and ``DES''. They are in experimental use and, although more expensive, threaten complex RANS models especially for bluff-body and similar flows. Turbulence predictions in aerodynamics face two principal challenges: (I) growth and separation of the boundary layer, and (II) momentum transfer after separation. (I) is simpler, but makes very high accuracy demands, and appears to give models of higher complexity little advantage.
                   (II) is now the arena for complex RANS models and the newer strategies, by which time-dependent three-dimensional simulations are the norm even over two-dimensional geometries. In some strategies, grid refinement is aimed at numerical accuracy; in others it is aimed at richer turbulence physics. In some approaches, the empirical constants play a strong role even when the grid is very fine; in others, their role vanishes. For several decades, practical methods will necessarily be RANS, possibly unsteady, or RANS/LES hybrids, pure LES being unaffordable. Their empirical content will remain substantial, and the law of the wall will be particularly resistant. Estimates are offered of the grid resolution needed for the application of each strategy to full-blown aerodynamic calculations, feeding into rough estimates of its feasibility date, based on computing-power growth.}
 }
@@ -43851,15 +42429,6 @@
     pages       = {2544-2553},
     volume      = {45},
     year        = {2007}
-}
-
-@InProceedings{Spangelo2011,
-    author      = {S Spangelo and J Cutler},
-    title       = {Integrated Approach to Optimizing Small Spacecraft Vehicles and Operations},
-    address     = {Cape Town, South Africa},
-    booktitle   = {Proceedings of the 62nd International Astronautical Congress},
-    month       = {October},
-    year        = {2011}
 }
 
 @PhDThesis{Speelpenning1980a,
@@ -44221,7 +42790,6 @@
 @Article{Steger1985,
     author      = {Steger, Joseph L and Rizk, Y M},
     title       = {Generation of three-dimensional body-fitted coordinates using hyperbolic partial differential equations},
-    doi         = {10.1016/0096-3003(92)90073-A},
     journal     = {NASA Technical Report},
     note        = {NASA-TM-86753},
     publisher   = {NASA Ames Research Center},
@@ -44349,23 +42917,6 @@
     number      = {3},
     pages       = {71--74},
     volume      = {EM-28},
-    year        = {1981}
-}
-
-@Book{Steward:1981:A,
-    author      = {Steward, D. V.},
-    title       = {Systems Analysis and Management: Structure, Strategy and Design},
-    publisher   = {Petrocelli Books Inc.},
-    year        = {1981}
-}
-
-@Article{Steward:1981:B,
-    author      = {D. V. Steward},
-    title       = {The Design structure system: A method for managing the design of complex systems},
-    doi         = {10.1109/TEM.1981.6448589},
-    journal     = {IEEE Transactions on Engineering Management},
-    pages       = {71--74},
-    volume      = {28},
     year        = {1981}
 }
 
@@ -44584,19 +43135,6 @@
     publisher   = {Springer Nature},
     volume      = {53},
     year        = {2015}
-}
-
-@Article{Stolpe2016a,
-    author      = {Mathias Stolpe},
-    title       = {Truss optimization with discrete design variables: a critical review},
-    doi         = {10.1007/s00158-015-1333-x},
-    journal     = {Structural and Multidisciplinary Optimization},
-    month       = {February},
-    number      = {2},
-    pages       = {349--374},
-    publisher   = {Springer},
-    volume      = {53},
-    year        = {2016}
 }
 
 @InProceedings{Stone2001,
@@ -44925,17 +43463,6 @@
     publisher   = {American Institute of Aeronautics and Astronautics ({AIAA})},
     volume      = {51},
     year        = {2014}
-}
-
-@Article{Su:2010:A,
-    author      = {Weihua Su and Carlos E. S. Cesnik},
-    title       = {Nonlinear Aeroelasticity of a Very Flexible Blended-Wing-Body Aircraft},
-    doi         = {10.2514/1.47317},
-    journal     = {Journal of Aircraft},
-    number      = {5},
-    pages       = {1539--1553},
-    volume      = {47},
-    year        = {2010}
 }
 
 @Article{Sudret2008,
@@ -45660,19 +44187,6 @@
     year        = {2010}
 }
 
-@Article{Tenenbaum2000,
-    author      = {J. B. Tenenbaum},
-    title       = {A Global Geometric Framework for Nonlinear Dimensionality Reduction},
-    doi         = {10.1126/science.290.5500.2319},
-    journal     = {Science},
-    month       = {December},
-    number      = {5500},
-    pages       = {2319--2323},
-    publisher   = {American Association for the Advancement of Science ({AAAS})},
-    volume      = {290},
-    year        = {2000}
-}
-
 @Article{Tenenbaum2000a,
     author      = {J. B. Tenenbaum},
     title       = {A Global Geometric Framework for Nonlinear Dimensionality Reduction},
@@ -46232,18 +44746,6 @@
     year        = {2010}
 }
 
-@Article{Toal2011a,
-    author      = {Toal, David J. J. and Keane, Andy J.},
-    title       = {Efficient Multipoint Aerodynamic Design Optimization Via Cokriging},
-    doi         = {10.2514/1.c031342},
-    journal     = {Journal of Aircraft},
-    month       = {Sep},
-    number      = {5},
-    pages       = {1685--1695},
-    volume      = {48},
-    year        = {2011}
-}
-
 @Article{Todoroki:1998:Stacking-sequence-GA,
     author      = {Akira Todoroki and Raphael T. Haftka},
     title       = {Stacking sequence optimization by a genetic algorithm with a new recessive gene like repair strategy},
@@ -46426,13 +44928,6 @@
     year        = {2008}
 }
 
-@PhDThesis{Tosserams2008Thesis,
-    author      = {Simon Tosserams},
-    title       = {Distributed Optimization for Systems Design: An Augmented {Lagrangian} Coordination Approach},
-    school      = {Eindhoven University of Technology},
-    year        = {2008}
-}
-
 @Article{Tosserams2009b,
     author      = {S. Tosserams and L. F. P. Etman and J. E. Rooda},
     title       = {Block-Separable Linking Constraints in Augmented Lagrangian Coordination in {MDO}},
@@ -46527,21 +45022,12 @@
     year        = {2014}
 }
 
-@InBook{Toubin2014,
-    author      = {Helene Toubin and Itham Salah El Din and Michael Meheut},
-    title       = {Multipoint Aerodynamic High Fidelity Shape Optimization of an Isolated Engine Nacelle},
-    booktitle   = {52nd Aerospace Sciences Meeting},
-    doi         = {10.2514/6.2014-0903},
-    eprint      = {https://arc.aiaa.org/doi/pdf/10.2514/6.2014-0903},
-    url         = {https://arc.aiaa.org/doi/abs/10.2514/6.2014-0903},
-    year        = {2014}
-}
-
 @InProceedings{Toubin2014a,
     author      = {Toubin, Helene and Salah El Din, Itham and Meheut, Michael},
     title       = {Multipoint Aerodynamic High Fidelity Shape Optimization of an Isolated Engine Nacelle},
     booktitle   = {52nd {Aerospace} {Sciences} {Meeting}},
     doi         = {10.2514/6.2014-0903},
+    eprint      = {https://arc.aiaa.org/doi/pdf/10.2514/6.2014-0903},
     isbn        = {978-1-62410-256-1},
     month       = {January},
     publisher   = {American Institute of Aeronautics and Astronautics},
@@ -46794,23 +45280,12 @@
 @Article{Tsai1971,
     author      = {Tsai, Stephen W and Wu, Edward M},
     title       = {A general theory of strength for anisotropic materials},
+    doi         = {10.1177/002199837100500106},
+    isbn        = {0021-9983},
     journal     = {Journal of composite materials},
     number      = {1},
     pages       = {58--80},
     publisher   = {Sage Publications Sage CA: Thousand Oaks, CA},
-    volume      = {5},
-    year        = {1971}
-}
-
-@Article{tsai1979,
-    author      = {Tsai, Stephen W. and Wu, Edward M.},
-    title       = {A General Theory of Strength for Anisotropic Materials},
-    doi         = {10.1177/002199837100500106},
-    isbn        = {0021-9983},
-    journal     = {Journal of Composite Materials},
-    number      = {1},
-    pages       = {58--80},
-    publisher   = {SAGE Publications Ltd STM},
     volume      = {5},
     year        = {1971}
 }
@@ -47767,16 +46242,6 @@
     year        = {2005}
 }
 
-@InProceedings{VenterSobi:1,
-    author      = {G. Venter J. Sobieszczanski-Sobieski},
-    title       = {Particle Swarm Optimization},
-    address     = {Denver, CO},
-    booktitle   = {3rd AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference},
-    month       = {April},
-    number      = {AIAA 2002-1235},
-    year        = {2002}
-}
-
 @InProceedings{Verling2017,
     author      = {Sebastian Verling and Thomas Stastny and Gregory Battig and Kostas Alexis and Roland Siegwart},
     title       = {Model-based transition optimization for a {VTOL} tailsitter},
@@ -47792,22 +46257,12 @@
     title       = {Natural Laminar Flow Wing for Supersonic Conditions: Wind Tunnel Experiments, Flight Test and Stability Computations},
     doi         = {10.1016/j.paerosci.2015.07.003},
     journal     = {Progress in Aerospace Sciences},
-    keywords    = {Cross-flow instabilities,Laminar/turbulent transition,Natural laminar flow,Supersonic,Tollmien-Schlichting waves},
     month       = {November},
     pages       = {64--91},
     publisher   = {Elsevier},
     volume      = {79},
-    year        = {2015}
-}
-
-@Article{Vermeersch201564,
-    author      = {Olivier Vermeersch and Kenji Yoshida and Yoshine Ueda and Daniel Arnal},
-    title       = {Natural laminar flow wing for supersonic conditions - Wind tunnel experiments, flight test and stability computations},
-    doi         = {10.1016/j.paerosci.2015.07.003},
-    journal     = {Progress in Aerospace Sciences},
-    keywords    = {Laminar/turbulent transition, Natural laminar flow, Supersonic, Tollmien--Schlichting waves, Cross-flow instabilities},
-    pages       = {64--91},
-    year        = {2015}
+    year        = {2015},
+    keywords    = {Cross-flow instabilities,Laminar/turbulent transition,Natural laminar flow,Supersonic,Tollmien-Schlichting waves, Laminar/turbulent transition, Natural laminar flow, Supersonic, Tollmien--Schlichting waves, Cross-flow instabilities}
 }
 
 @Book{Vermeire2020a,
@@ -48133,12 +46588,15 @@
 @PhDThesis{Wachter2002a,
     author      = {Wachter, Andreas},
     title       = {An Interior Point Algorithm for Large-Scale Nonlinear Optimization with Applications in Process Engineering},
+    address     = {Pittsburgh, PA},
+    month       = {January},
     school      = {Carnegie Mellon University},
     year        = {2002},
     abstract    = {Nonlinear programming (NLP) has become an essential tool in process engineering, leading to profit gains through improved plant designs and better control strategies. The rapid advance in computer technology enables engineers to consider increasingly complex systems, where existing optimization codes reach their practical limits. The objective of this dissertation is the design, analysis, implementation, and evaluation of a new NLP algorithm that is able to overcome the current bottlenecks, particularly in the area of process engineering. The proposed algorithm follows an interior point approach, thereby avoiding the combinatorial complexity of identifying the active constraints. Emphasis is laid on flexibility in the computation of search directions, which allows the tailoring of the method to individual applications and is mandatory for the solution of very large problems. In a full-space version the method can be used as general purpose NLP solver, for example in
                   modeling environments such as AMPL. The reduced space version, based on coordinate decomposition, makes it possible to tailor linear algebra work to particular problem structures, such as those arising in dynamic optimization, or even to re-use existing simulation software. If second derivatives are available, they can be exploited explicitly, or otherwise approximated by quasi-Newton methods. In addition, as a compromise between those two options, a conjugate gradient method is implemented for the computation of the tangential step, for which two preconditioners are proposed. This makes the reduced space approach attractive even for problems with many degrees of freedom. Global convergence is enforced by a novel filter line search procedure, which aims to improve efficiency and robustnes over traditional merit function approaches. The discussion of theoretical aspects includes a detailed analysis of a new type of global convergence failure inherent to many current
                   interior point NLP solvers. Global convergence of the filter line search method, introduced to overcome this convergence problem, is proven under mild assumptions. It is further shown that the Maratos effect can be avoided in this framework by second order correction steps, which enables fast local convergence. The practical performance of the proposed method as a general purpose NLP solver is tested on a large variety of NLP test problems. Among the implemented line search methods, the new filter approach seems superior to those based on merit functions. The new optimization code also compares favorably with two other recently developed interior point NLP solvers. The potential of the new method in the area of process engineeing is demonstrated on two dynamic optimization examples with different characteristics, which are solved using orthogonal collocation in a new implementation of the elemental decompositon. Here, the effectiveness of the individual strategies to
-                  handle second derivative information is compared. The results confirm that the best choice depends on the particular application. The largest instance addressed is a model with 70 differential and 356 algebraic equations, discretized over 1,500 elements. The resulting NLP with more than 2 million variables and 4,500 degrees of freedom is solved in less than 7 hours on a Linux workstation.}
+                  handle second derivative information is compared. The results confirm that the best choice depends on the particular application. The largest instance addressed is a model with 70 differential and 356 algebraic equations, discretized over 1,500 elements. The resulting NLP with more than 2 million variables and 4,500 degrees of freedom is solved in less than 7 hours on a Linux workstation.},
+    keywords    = {optimization, interior point}
 }
 
 @Article{Wachter2006a,
@@ -48152,16 +46610,6 @@
     publisher   = {Springer},
     volume      = {106},
     year        = {2006}
-}
-
-@PhDThesis{Wachter:2002:AAA,
-    author      = {Andreas W{\"a}chter},
-    title       = {An Interior Point Algorithm for Large-Scale Nonlinear Optimization with Applications in Process Engineering},
-    address     = {Pittsburgh, PA},
-    keywords    = {optimization, interior point},
-    month       = {January},
-    school      = {Carnegie Mellon University},
-    year        = {2002}
 }
 
 @InProceedings{Wackers2014a,
@@ -48612,7 +47060,10 @@
     month       = {May},
     pages       = {106624},
     volume      = {112},
-    year        = {2021}
+    year        = {2021},
+    keywords    = {Nacelle inlet, Three-dimensionality, POD, Pressure distortion, CST},
+    abstract    = {Nacelle inlet withdraws designer's attention when considering the pressure distortion at fan entrance during aircraft takeoff at high angle-of-attack. Conventionally, the design is decomposed into separate streamwise profile optimization at several circumferential positions. This causes design efficiency loss since the three-dimensional geometric constraint and aerodynamic performance requests have to be transformed to adapt two-dimensional profile cases. As an attempt to solve this issue, this paper proposes a nacelle inlet design approach of introducing more three-dimensional geometric consideration. Firstly, a library of three-dimensional nacelle inlet geometries is established by fully sampling design space. The samples are then filtered by posing direct three-dimensional geometric constraints. Such design space now contains information relevant to the problem which is then extracted by Proper Orthogonal Decomposition (POD) in form of modes. The selected modes
+                  constitute the problem-oriented new design variables that will maintain more geometric three-dimensionality during optimization than conventional approach. The selection assures economical use of data according to the order of importance determined by corresponding eigenvalues of obtained modes. Finally, a proof-of-concept study thereby conducts a surrogate-base optimization (SBO) with Differential Evolution (DE) algorithm where a nacelle inlet is optimized with zero IDCMAX at angle-of-attack of 28$\,^{\circ}$ under flow of Ma 0.18, demonstrating the feasibility of the new approach.}
 }
 
 @Article{Wang2021b,
@@ -48655,21 +47106,6 @@
     pages       = {106903},
     volume      = {117},
     year        = {2021}
-}
-
-@Article{Wang2021f,
-    author      = {Shuyue Wang and Chen Cao and Cong Wang and Liyue Wang and Gang Sun},
-    title       = {A nacelle inlet design approach with more three-dimensional geometric consideration},
-    doi         = {https://doi.org/10.1016/j.ast.2021.106624},
-    issn        = {1270-9638},
-    journal     = {Aerospace Science and Technology},
-    keywords    = {Nacelle inlet, Three-dimensionality, POD, Pressure distortion, CST},
-    pages       = {106624},
-    url         = {https://www.sciencedirect.com/science/article/pii/S1270963821001346},
-    volume      = {112},
-    year        = {2021},
-    abstract    = {Nacelle inlet withdraws designer's attention when considering the pressure distortion at fan entrance during aircraft takeoff at high angle-of-attack. Conventionally, the design is decomposed into separate streamwise profile optimization at several circumferential positions. This causes design efficiency loss since the three-dimensional geometric constraint and aerodynamic performance requests have to be transformed to adapt two-dimensional profile cases. As an attempt to solve this issue, this paper proposes a nacelle inlet design approach of introducing more three-dimensional geometric consideration. Firstly, a library of three-dimensional nacelle inlet geometries is established by fully sampling design space. The samples are then filtered by posing direct three-dimensional geometric constraints. Such design space now contains information relevant to the problem which is then extracted by Proper Orthogonal Decomposition (POD) in form of modes. The selected modes
-                  constitute the problem-oriented new design variables that will maintain more geometric three-dimensionality during optimization than conventional approach. The selection assures economical use of data according to the order of importance determined by corresponding eigenvalues of obtained modes. Finally, a proof-of-concept study thereby conducts a surrogate-base optimization (SBO) with Differential Evolution (DE) algorithm where a nacelle inlet is optimized with zero IDCMAX at angle-of-attack of 28$\,^{\circ}$ under flow of Ma 0.18, demonstrating the feasibility of the new approach.}
 }
 
 @Article{Wang2021vae,
@@ -49404,15 +47840,6 @@
     year        = {1960}
 }
 
-@PhDThesis{Wit:2009:A,
-    author      = {Albert Jan de Wit},
-    title       = {A unified approach towards decomposition and coordination for multi-level optimization},
-    address     = {Netherlands},
-    keywords    = {MDO},
-    school      = {Technische Universiteit Delft},
-    year        = {2009}
-}
-
 @Article{Witherden2017a,
     author      = {Witherden, F. D. and Jameson, A. and Zingg, D. W.},
     title       = {The {Design} of {Steady} {State} {Schemes} for {Computational} {Aerodynamics}},
@@ -49439,20 +47866,13 @@
     year        = {1989}
 }
 
-@InCollection{Witteveen2009,
-    author      = {Witteveen, Jeroen and Bijl, Hester},
-    title       = {Explicit mesh deformation using inverse distance weighting interpolation},
-    booktitle   = {19th AIAA Computational Fluid Dynamics},
-    pages       = {3996},
-    year        = {2009}
-}
-
 @InProceedings{Witteveen2009a,
     author      = {Witteveen, Jeroen and Bijl, Hester},
     title       = {Explicit Mesh Deformation Using Inverse Distance Weighting Interpolation},
     booktitle   = {19th {AIAA} Computational Fluid Dynamics},
     doi         = {10.2514/6.2009-3996},
     month       = {June},
+    pages       = {3996},
     publisher   = {American Institute of Aeronautics and Astronautics},
     series      = {Fluid Dynamics and Co-located Conferences},
     year        = {2009}
@@ -50225,7 +48645,7 @@
 }
 
 @MastersThesis{Yan2012,
-    author      = {Bnejamin Yan},
+    author      = {Benjamin Yan},
     title       = {A Framework for Aerostructural Analysis of Wind Turbine Blades},
     month       = {January},
     school      = {University of Toronto},
@@ -50257,13 +48677,6 @@
     year        = {2023},
     abstract    = {Natural laminar flow nacelle is a promising technology for drag reduction. In this paper, an optimization platform is established for the design of transonic axisymmetric and three-dimensional natural laminar flow nacelles for large civil aircraft. The platform adopts the class/shape transformation method for geometric parameterization, a four-equation transition model for transition prediction, and the differential evolution algorithm combined with the radial basis function surrogate model as the optimization algorithm. The optimized axisymmetric nacelle demonstrates approximately 31% chord length of laminar flow, with the drag reduction of 13.3%. The influence of the Reynolds number and inlet mass flow rate on the optimization result is also investigated. The axis-symmetric nacelle optimization method is further used for the section profile design of a non-axisymmetric nacelle. An equivalent method is used to simulate the different local flow angles at different
                   sections in the circumferential direction of the non-axisymmetric nacelle by using different inlet mass flow rates of the axisymmetric nacelle. The optimized natural laminar flow nacelle maintains over 30% chord length of laminar flow with robustness to the change of the freestream angle of attack. The total drag of the non-axisymmetric nacelle is reduced by 5.4% under cruise conditions.}
-}
-
-@MastersThesis{Yan:2011:A,
-    author      = {Benjamin Yan},
-    title       = {A Framework for Aerostructural Analysis of Wind Turbine Blades},
-    school      = {University of Toronto},
-    year        = {2011}
 }
 
 @Article{YANG2012,
@@ -50459,18 +48872,8 @@
     number      = {5},
     pages       = {391--402},
     volume      = {35},
-    year        = {2008}
-}
-
-@Article{Yi:2008:A,
-    author      = {S. I. Yi and J. K. Shin and G. J. Park},
-    title       = {Comparison of MDO methods with mathematical examples},
-    journal     = {Structural and Multidisciplinary Optimization},
-    keywords    = {MDO},
-    number      = {5},
-    pages       = {391--402},
-    volume      = {35},
-    year        = {2008}
+    year        = {2008},
+    keywords    = {MDO}
 }
 
 @InProceedings{Yildirim2019a,
@@ -50795,19 +49198,8 @@
     month       = {April},
     pages       = {102899},
     volume      = {94},
-    year        = {2020}
-}
-
-@Article{Young2020a,
-    author      = {Y. L. Young and T. Wright and H. Yoon and C. M. Harwood},
-    title       = {Dynamic hydroelastic response of a surface-piercing strut in waves and ventilated flows},
-    doi         = {10.1016/j.jfluidstructs.2020.102899},
-    issn        = {0889-9746},
-    journal     = {Journal of Fluids and Structures},
-    keywords    = {Waves, Ventilation, Dynamic, Frequency coalescence, Multiphase flow, Flow-induced vibration},
-    pages       = {102899},
-    volume      = {94},
-    year        = {2020}
+    year        = {2020},
+    keywords    = {Waves, Ventilation, Dynamic, Frequency coalescence, Multiphase flow, Flow-induced vibration}
 }
 
 @Article{Young2021,
@@ -50851,6 +49243,7 @@
 @PhDThesis{Yu2009,
     author      = {Alan Tao Yu},
     title       = {A Configurable B-Spline Parameterization Method for Structural Optimization of Wing Boxes},
+    address     = {Toronto, ON, Canada},
     month       = {September},
     school      = {University of Toronto},
     year        = {2009}
@@ -50905,14 +49298,6 @@
     pages       = {275--286},
     publisher   = {Springer Singapore},
     year        = {2020}
-}
-
-@PhDThesis{Yu:2009:A,
-    author      = {Alan Tao Yu},
-    title       = {A Configurable B-Spline Parameterization Method for Structural Optimization of Wing Boxes},
-    address     = {Toronto, ON, Canada},
-    school      = {University of Toronto},
-    year        = {2009}
 }
 
 @Article{Yun2020,
@@ -51189,11 +49574,12 @@
     doi         = {10.1016/j.actaastro.2018.02.011},
     issn        = {0094-5765},
     journal     = {Acta Astronautica},
-    keywords    = {Aerodynamic design, Aircraft, Airfoil, Parametric approach},
     month       = {April},
     pages       = {319--331},
+    publisher   = {Elsevier},
     volume      = {145},
     year        = {2018},
+    keywords    = {Aerodynamic design, Aircraft, Airfoil, Parametric approach},
     abstract    = {Parametric modeling of aircrafts plays a crucial role in the aerodynamic design process. Effective parametric approaches have large design space with a few variables. Parametric methods that commonly used nowadays are summarized in this paper, and their principles have been introduced briefly. Two-dimensional parametric methods include B-Spline method, Class/Shape function transformation method, Parametric Section method, Hicks-Henne method and Singular Value Decomposition method, and all of them have wide application in the design of the airfoil. This survey made a comparison among them to find out their abilities in the design of the airfoil, and the results show that the Singular Value Decomposition method has the best parametric accuracy. The development of three-dimensional parametric methods is limited, and the most popular one is the Free-form deformation method. Those methods extended from two-dimensional parametric methods have promising prospect in aircraft
                   modeling. Since different parametric methods differ in their characteristics, real design process needs flexible choice among them to adapt to subsequent optimization procedure.}
 }
@@ -51228,14 +49614,6 @@
     journal     = {2018 World Automation Congress (WAC)},
     month       = {06},
     pages       = {232-236},
-    year        = {2018}
-}
-
-@Article{zhang2018review,
-    author      = {Zhang, Tian-tian and Wang, Zhen-guo and Huang, Wei and Yan, Li},
-    title       = {A review of parametric approaches specific to aerodynamic design process},
-    journal     = {Acta Astronautica},
-    publisher   = {Elsevier},
     year        = {2018}
 }
 
@@ -51603,20 +49981,10 @@
 @Article{Zole1994a,
     author      = {A. Zole and M. Karpel},
     title       = {Continuous Gust Response and Sensitivity Derivatives Using State-Space Models},
-    journal     = {Journal of Aircraft},
-    number      = {5},
-    pages       = {1212-1214},
-    volume      = {31},
-    year        = {1994}
-}
-
-@Article{Zole1994b,
-    author      = {Zole, Arie and Karpel, Mordechay},
-    title       = {Continuous gust response and sensitivity derivatives using state-space models},
     doi         = {10.2514/3.46632},
     journal     = {Journal of Aircraft},
     number      = {5},
-    pages       = {1212--1214},
+    pages       = {1212-1214},
     volume      = {31},
     year        = {1994}
 }
